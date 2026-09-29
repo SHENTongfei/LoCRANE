@@ -1,0 +1,22 @@
+{
+ "n": 1715,
+ "n_perm": 1000,
+ "level": "eval-level placebo: chrono labels permuted against frozen 5-seed OOF ensemble",
+ "H1": {
+  "obs_tail_gap": -6.636660003662115,
+  "p_perm_less": 0.0
+ },
+ "H2_predpace": {
+  "obs": 1.0622906311830003,
+  "p_perm_greater": 0.839
+ },
+ "H4": {
+  "obs_monotone": true,
+  "null_monotone_rate": 0.0,
+  "obs_fracs": [
+   0.005494505494505495,
+   0.04200542005420054,
+   0.0880503144654088
+  ]
+ }
+}

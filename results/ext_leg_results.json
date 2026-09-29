@@ -1,0 +1,46 @@
+{
+ "pre_registered": {
+  "cohort2": "n_L=10 -> disclosure grade (rates+direction only, no p claims)",
+  "gtex": "cross-platform disclosure only (no L band)",
+  "model": "25-ckpt final-epoch ensemble (cg_k), zero-shot external preds"
+ },
+ "source": "runs_v3/w2_ens_{cohort2,gtex}.npz",
+ "cohort2": {
+  "n": 66,
+  "nL": 10,
+  "MAE": 17.659258849693067,
+  "spearman": 0.6193233324480142,
+  "resid_mean_L": -23.71701126098633,
+  "resid_mean_M": -16.7119079492031,
+  "H1_tail_gap_ext": -6.271228790283203,
+  "H1_grade": "disclosure (n_L=10)",
+  "H4_cert_fracs": {
+   "band0": 0.23529411764705882,
+   "band1": 0.6923076923076923,
+   "band2": 0.8
+  },
+  "H4_monotone": true,
+  "H4_q": 0.5575475272256943,
+  "CERTS_F": {
+   "n": 37,
+   "nL": 5,
+   "L_rate": 0.8,
+   "marginal": 0.59375
+  },
+  "CERTS_M": {
+   "n": 29,
+   "nL": 5,
+   "L_rate": 0.8,
+   "marginal": 0.5
+  },
+  "CADENCE-S_grade": "disclosure (small n_L)"
+ },
+ "gtex": {
+  "n": 64,
+  "nL": 0,
+  "MAE": 77.73539471626282,
+  "spearman": 0.22024723595508092,
+  "resid_mean_L": null,
+  "resid_mean_M": 67.78673434257507
+ }
+}

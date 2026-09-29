@@ -1,0 +1,102 @@
+{
+ "d1a_mendeley_fpf4y72kfz_v1.zip (raw CC-BY package)": [
+  "cdbc958187144c29d0aea213abb4d693c078beed4e13e7dfd9b7c484596e4e78",
+  "352.5 MB"
+ ],
+ "d1a_readcount.npz (raw counts 19229x1751)": [
+  "62b57d79537da20a9f99765118713d5c69946a378602345459bf13319bca30ce",
+  "136.2 MB"
+ ],
+ "expression_matrix.tsv.gz (1715x11030 processed; ALSO release asset)": [
+  "4b1f3d8e16aef0c8d9b492ca93888b2316b2ce105f13e24e9ead9874cfab2bbf",
+  "320.1 MB"
+ ],
+ "LM22_signature.tsv (Newman 2015; obtain from CIBERSORT)": [
+  "1bae24cfa5fc87bbf4f3a8b0809340a9d4c37fd00fd6d63d0ed4f5587c884a47",
+  "0.1 MB"
+ ],
+ "fold_0/train_expr.csv (release asset)": [
+  "991192f286b8303525320e5b64b587501ab528ad28060512cbfdd82c0abd4977",
+  "62.6 MB"
+ ],
+ "fold_0/val_expr.csv (release asset)": [
+  "54ccb7007cdc050fc910234fb3373fbd5b52e0271b191e2eb7953a385efa55f4",
+  "17.3 MB"
+ ],
+ "fold_0/train_pheno.csv (release asset)": [
+  "7c02df1e5b1c228ef099235d5237cd464946db02205e77789775ae410e62833a",
+  "0.0 MB"
+ ],
+ "fold_0/val_pheno.csv (release asset)": [
+  "1c01685b247a4e88d0659c259e1af8f5efd634b3c68f1cc5b383eae6119f4997",
+  "0.0 MB"
+ ],
+ "fe_cache_f0.npz (fold feature caches (rebuildable))": [
+  "168d5307e0e4e978e06672ab60f5dcb94188a15c49ff5be1b85ac5398b7030b0",
+  "60.9 MB"
+ ],
+ "fe_cache_f0_full.npz (fold feature caches (rebuildable))": [
+  "ba24c49e6297333af88634bdfea01dc76c0e70a94f1606d3d316f3e90469b914",
+  "61.0 MB"
+ ],
+ "fe_cache_f1.npz (fold feature caches (rebuildable))": [
+  "783b6d92976916d1527eea7e94c50f419162dbdb9860d4f3a890c2fd0b6b4ff2",
+  "60.9 MB"
+ ],
+ "fe_cache_f1_full.npz (fold feature caches (rebuildable))": [
+  "b47d00693ab0f4fcb6ce0715c89955b3975dd0f3d035794fed8b6be7b2d3e114",
+  "61.4 MB"
+ ],
+ "fe_cache_f2.npz (fold feature caches (rebuildable))": [
+  "229da6a94f061655314985c3298455a96e3fc1965316aa1e38fe6c93347e80a6",
+  "60.9 MB"
+ ],
+ "fe_cache_f2_full.npz (fold feature caches (rebuildable))": [
+  "adf1a0586bf16286204919fbd9eefd0c4198ad2af3aee97163885f8d30845216",
+  "61.4 MB"
+ ],
+ "fe_cache_f3.npz (fold feature caches (rebuildable))": [
+  "fe5d9eb00f96c5a7303ad27678ef0b8189cff3d2ef6d77910f2976653c6b9bf6",
+  "60.9 MB"
+ ],
+ "fe_cache_f3_full.npz (fold feature caches (rebuildable))": [
+  "24c54f1eb12a952b8df594940197f6f48441206c71bf6033fd02a39959b4a7ef",
+  "61.4 MB"
+ ],
+ "fe_cache_f4.npz (fold feature caches (rebuildable))": [
+  "d1449e09a8a5621e370af80dc78f07baad0138336e87723c000ecd51e7a7cb36",
+  "60.9 MB"
+ ],
+ "fe_cache_f4_full.npz (fold feature caches (rebuildable))": [
+  "b8bc9ed402f9a4f9010cd53f426a0a62936c768662070dd466360196b0e7773d",
+  "61.4 MB"
+ ],
+ "plm_esm2_650M_hvg.npz (PLM embedding caches (third-party model derived))": [
+  "73f0414a650859d41ff1d64b265e3abce412d5e811f24da6a95421c8522811c2",
+  "50.1 MB"
+ ],
+ "plm_esm2_650M_hvg3000.npz (PLM embedding caches (third-party model derived))": [
+  "5195ae01bf403b4d681066b20b00d42c94136b097bb21672425952e0857b2f2b",
+  "9.3 MB"
+ ],
+ "plm_esm2_650M_hvg3000_loraTrue.npz (PLM embedding caches (third-party model derived))": [
+  "da046aa66425310e0c38fc3810ac607c1f08b513aace288de85bb772fc5a76d7",
+  "10.2 MB"
+ ],
+ "plm_esm_c_600M_hvg3000.npz (PLM embedding caches (third-party model derived))": [
+  "d114b986af2432fbc22c07c308c1a3c8d0b1e2c7300ed1df51e6b59d89551959",
+  "8.3 MB"
+ ],
+ "plm_prot_t5_xl_hvg3000.npz (PLM embedding caches (third-party model derived))": [
+  "8ba14bba2f9453030b316830951368c476ce069db49386bc099ed5e7165dad54",
+  "7.4 MB"
+ ],
+ "plm_map.csv (PLM id map)": [
+  "ba25c6e27675763ee82ead61d59f39324b332a63f77b968fe72abfbe855af35d",
+  "0.5 MB"
+ ],
+ "runs_v3/ckpt_cg/*.pt (25 files, weights only)": [
+  "[25 weight files - directory-level exclusion; sizes listed in repo history]",
+  "229 MB total"
+ ]
+}

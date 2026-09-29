@@ -1,0 +1,650 @@
+{
+ "ATF6B": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [],
+  "pmids": []
+ },
+ "GCNT7": {
+  "grade": "NONE",
+  "n_pubmed_any": 0,
+  "top_titles": [
+   "Heat Stress-Induced Male Reproductive Dysfunction in Brandt's Vole (Lasiopodomys brandtii): A Central Role for",
+   "MEK1 as a Synthetic Lethal Target with Cabozantinib in Renal Cell Carcinoma: Insights from CRISPR/Cas9 Screeni",
+   "Dracocephalum tanguticum Maxim Polysaccharide Ameliorate Autoimmune Hepatitis via Regulating TNF and IL-17 Sig"
+  ],
+  "pmids": [
+   "42737985",
+   "42510829",
+   "42016259"
+  ]
+ },
+ "TENC1": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [],
+  "pmids": []
+ },
+ "POU5F2": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "Human and Mouse Nephrin and Their Interactions With 13 Proteins: An In Silico Study.",
+   "Multi-Omics Analysis Reveals the Pathogenesis of Growth-Disordered Raccoon Dog.",
+   "Associations between Genetically Predicted Blood Protein Biomarkers and Pancreatic Cancer Risk."
+  ],
+  "pmids": [
+   "39246878",
+   "37762538",
+   "32439797"
+  ]
+ },
+ "CKMT2": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "Comparative analysis of mesenchymal stromal cells derived from ovarian follicular aspirates of young and aged ",
+   "Di(2-ethylhexyl)phthalate induces reproductive toxicity via JAZF1/TR4 pathway and oxidative stress in pubertal",
+   "[Establishment of two-dimensional gel electrophoretic protein map of human spermatozoa]."
+  ],
+  "pmids": [
+   "42228999",
+   "30755103",
+   "12536666"
+  ]
+ },
+ "P2RY8": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "Biological effects of a tested commercial fragrance formulation in rats: oxidative and molecular alterations a",
+   "Multi-omics analysis reveals the effects of Codonopsis pilosula polysaccharides on the skeletal muscle develop",
+   "CKMT2 functions as a novel oncogenic gene in osteosarcoma, revealed by bioinformatics and experimental approac"
+  ],
+  "pmids": [
+   "42719553",
+   "42700505",
+   "42591477"
+  ]
+ },
+ "GPR156": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "In vivo genome-wide CRISPR screens of human T cells in solid tumours.",
+   "[Analysis of the Gene Mutation Distribution and Its Relationship with Prognosis in Patients with Primary Gastr",
+   "Clinical features and initial treatment outcomes of pediatric B-cell acute lymphoblastic leukemia with P2RY8::"
+  ],
+  "pmids": [
+   "42587162",
+   "42544655",
+   "42433937"
+  ]
+ },
+ "C20orf24": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "Reply to Tarchini et al.: Evidence for a GPR156 role in central stress responses in addition to its inner-ear ",
+   "Inner ear deficits complicate interpretation of depression-like behaviors in Gpr156 mutant mice.",
+   "Genome-wide assessment of rare protein-coding variants identifies associations with non-syndromic cleft lip/pa"
+  ],
+  "pmids": [
+   "42766747",
+   "42636368",
+   "42477406"
+  ]
+ },
+ "LRRC25": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "Fanconi anemia complementation group C gene (FANCC) association with hereditary and sporadic renal tumors.",
+   "Craniofacial dysmorphism, skeletal anomalies, and impaired intellectual development syndrome-1 in two new pati",
+   "C20orf24: A potential novel gene responsible for Cerebrofaciothoracic Dysplasia."
+  ],
+  "pmids": [
+   "41557860",
+   "36708876",
+   "36150687"
+  ]
+ },
+ "ABCA13": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "Preliminary effects of a four-month circuit training intervention on cognitive function and exploratory plasma",
+   "Cross-ancestry proteome-wide Mendelian randomization prioritizes 12 plasma protein candidates for breast cance",
+   "Single-cell RNA sequencing and Mendelian randomization, revealing molecular mechanisms and causal correlation "
+  ],
+  "pmids": [
+   "42416337",
+   "42145630",
+   "41083787"
+  ]
+ },
+ "TMTC1": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "Integrating machine learning and GWAS for variant prioritization in the INCIPE cohort highlights ABC transport",
+   "Biallelic ABCA13 Loss-of-Function Variants in a Child With Neurodevelopmental Delay: A Case Report.",
+   "The miR-16-1-3p passenger strand exhibits functional activity and suppresses malignant phenotypes in osteosarc"
+  ],
+  "pmids": [
+   "42733719",
+   "42692849",
+   "42434344"
+  ]
+ },
+ "GPR162": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "Establishment of a Predictive Model for Mortality in Sepsis Patients Using WGCNA and Machine Learning Algorith",
+   "O-Mannose Glycosylations Influence E-Cadherin Functional Interactions.",
+   "Transcriptome and single-cell RNA sequencing analysis with 101 machine learning combinations and experimental "
+  ],
+  "pmids": [
+   "42605381",
+   "41887410",
+   "41685329"
+  ]
+ },
+ "HLA-DOA": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "Genetic profiling of synchronous pituitary corticotroph adenomas.",
+   "Genetic Profiling of Synchronous Pituitary Corticotroph Adenomas.",
+   "The G Protein-Coupled Receptor-Related Gene Signatures for Diagnosis and Prognosis in Glioblastoma: A Deep Lea"
+  ],
+  "pmids": [
+   "40544420",
+   "40386408",
+   "39733410"
+  ]
+ },
+ "GPR115": {
+  "grade": "B",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "Genetic Variants at the NAT2 and HLA-DOA are Associated With Anti-Tuberculosis Drug-Induced Liver Injury Susce",
+   "Exploring Biomarkers and Mechanisms of Action of Adaptive Immune Response in Age-Related Macular Degeneration ",
+   "Pulmonary microbiota, local inflammation, and tumor progression impact immune checkpoint gene profiles in the "
+  ],
+  "pmids": [
+   "42742466",
+   "42193449",
+   "41921040"
+  ]
+ },
+ "SELENBP1": {
+  "grade": "B",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "Risk scoring model for lung adenocarcinoma based on PD-L1 related signature reveals prognostic predictability ",
+   "Fatty acid metabolism prognostic signature predicts tumor immune microenvironment and immunotherapy, and ident",
+   "Correction: Winkler et al. The Adhesion G-Protein-Coupled Receptor GPR115/ADGRF4 Regulates Epidermal Different"
+  ],
+  "pmids": [
+   "40568599",
+   "39478862",
+   "37443844"
+  ]
+ },
+ "TEKT2": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "Somatic Mutation Profile in Normal Tissue Adjacent to Tumor in Colorectal Carcinoma Patients: Functional Effec",
+   "Evolutionary Conservation of the Copper-Dependent Thiol Oxidase Activity of Selenium-Binding Proteins.",
+   "Hepatic methanethiol oxidase (MTO) activity of mice requires adequate dietary supply of copper."
+  ],
+  "pmids": [
+   "42795000",
+   "42792187",
+   "42715910"
+  ]
+ },
+ "HIST1H2BB": {
+  "grade": "B",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "Tekt2 regulates hair cell development and function by maintaining normal kinocilium morphology in zebrafish.",
+   "Key regulatory genes and pathways in spermatogenesis identified by transcriptome profiling of the hypothalamic",
+   "Single-Cell Transcriptomic Profiling Reveals Molecular Alterations in the Airway Epithelial Cells of Children "
+  ],
+  "pmids": [
+   "42745927",
+   "42615880",
+   "42340362"
+  ]
+ },
+ "GPX2": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "Analysis of key genes and pathways of knee osteoarthritis based on GEO data mining.",
+   "Microbial signatures in head and neck squamous cell carcinoma: an in silico study.",
+   "Integrated transcriptomic analysis and machine learning for characterizing diagnostic biomarkers and immune ce"
+  ],
+  "pmids": [
+   "41327695",
+   "39907412",
+   "39295860"
+  ]
+ },
+ "C22orf46": {
+  "grade": "NONE",
+  "n_pubmed_any": 4,
+  "top_titles": [
+   "Spatiotemporal expression and hormonal regulation of antioxidant enzymes in the bovine oviduct epithelium.",
+   "Sodium cyclamate aggravates DSS-induced colitis in mice with associated microbial, metabolic, and epithelial a",
+   "14-Deoxy-11,12-didehydroandrographolide Attenuates Lipotoxicity and Non-Alcoholic Steatohepatitis Through Rest"
+  ],
+  "pmids": [
+   "42777624",
+   "42764709",
+   "42737471"
+  ]
+ },
+ "C1orf141": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "Genetic architecture of lung cancer revealed by common and rare variant analyses across population-scale bioba",
+   "Nucleolar protein TAAP1/C22orf46 confers pro-survival signaling in non-small cell lung cancer.",
+   "Gene biomarkers and classifiers for various subtypes of HTLV-1-caused ATLL cancer identified by a combination "
+  ],
+  "pmids": [
+   "42443585",
+   "38228372",
+   "37222763"
+  ]
+ },
+ "CXorf36": {
+  "grade": "B",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "Immunometabolic regulation and tissue-resident immunity in autoimmune uveitis: from genetic susceptibility to ",
+   "GWAS identifies genetic loci, lifestyle factors and circulating biomarkers that are risk factors for sarcoidos",
+   "Genetic control of CCL24, POR, and IL23R contributes to the pathogenesis of sarcoidosis."
+  ],
+  "pmids": [
+   "42608607",
+   "40075078",
+   "32826979"
+  ]
+ },
+ "CD109": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "Molecular insights into gender-specific differences in rheumatoid arthritis: A study using high-throughput seq",
+   "A fetus with Kabuki syndrome 2 detected by chromosomal microarray analysis.",
+   "A t(5;16) translocation is the likely driver of a syndrome with ambiguous genitalia, facial dysmorphism, intel"
+  ],
+  "pmids": [
+   "40550064",
+   "32211113",
+   "27148584"
+  ]
+ },
+ "FBN1": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "Macrophage restriction in Drosophila wounds and tumors via a matrix degradation-moderating protease inhibitor.",
+   "Activated Platelets Express GPI-Anchored Fibrocystin-L (PKHD1L1), from Granules, Absent or Deficient in Paroxy",
+   "A cross-platform validated biomarker signature for mucoepidermoid carcinoma identified by integrated WGCNA and"
+  ],
+  "pmids": [
+   "42789693",
+   "42737691",
+   "42664892"
+  ]
+ },
+ "IFI27": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "Molecular heterogeneity and diagnostic performance of phenotype-driven multigene panel testing in patients wit",
+   "Serum asprosin levels in patients with rheumatoid arthritis: An exploratory cross-sectional study.",
+   "Circulating Asprosin Declines During 24 Months of Growth Hormone Replacement and Is Associated with IGF-1 and "
+  ],
+  "pmids": [
+   "42799944",
+   "42798042",
+   "42794655"
+  ]
+ },
+ "LRRN2": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "Mendelian Randomization and Bioinformatics Identify IFI27 as a Candidate Biomarker for Recurrent Pregnancy Los",
+   "Single-cell and bulk transcriptomic analyses define an IFI27-centered interferon-response epithelial state in ",
+   "Selective Whole-Blood Expression of Interferon-Stimulated Genes and TLR3/TLR7 in Type 1 Diabetes with Minimal "
+  ],
+  "pmids": [
+   "42801301",
+   "42798643",
+   "42792959"
+  ]
+ },
+ "CD276": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "Lrrn-mediated retinal ganglion cell targeting drives visual circuit assembly for brightness and contrast detec",
+   "Lrrns define a visual circuit underlying brightness and contrast perception.",
+   "Design and verification of a 25\u00a0K multiple-SNP liquid-capture chip by target sequencing for dairy goat."
+  ],
+  "pmids": [
+   "41576160",
+   "40654605",
+   "40234771"
+  ]
+ },
+ "WNT4": {
+  "grade": "B",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "A Multi-Targeting Chimeric Antigen Receptor-T Cell Platform to Overcome Antigen Heterogeneity in the Treatment",
+   "Clinical and Therapeutic Relevance of B7-H3 in Sarcomas: Molecular Insights from a Systematic Review.",
+   "Drug discovery strategies targeting B7-H3 (CD276) in lung and gastric cancers: From biological validation to n"
+  ],
+  "pmids": [
+   "42801642",
+   "42801277",
+   "42777908"
+  ]
+ },
+ "KIR3DS1": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "Local Surgicel/rhBMP-7 delivery is associated with renal repair responses after surgically induced acute kidne",
+   "Persistent M\u00fcllerian structures in an infant with complete androgen insensitivity syndrome.",
+   "Human and mouse adrenal glands are characterized by species-specific steroidogenic states and tissue turnover."
+  ],
+  "pmids": [
+   "42780612",
+   "42756908",
+   "42711427"
+  ]
+ },
+ "GPR153": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "KIR genes influence endometrial dysbiosis, chronic endometritis and antibiotic response in infertile women.",
+   "Reanalysis of Public Transcriptomes Reveals Shared Immune Signatures Between Major Depressive Disorder And Der",
+   "Impact of KIR3DL1/3DS1 and HLA-B polymorphisms on hepatitis C virus infection: a case-control study."
+  ],
+  "pmids": [
+   "42476044",
+   "42441576",
+   "42205473"
+  ]
+ },
+ "TAP2": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "Multi-Omics Analysis Identifies TTYH3 and MPG as Candidate Osteoporosis-Associated Biomarkers in Osteoblasts a",
+   "Fibrinogen and leukemic-cell trafficking: possible implications for hyperleukocytosis and differentiation synd",
+   "International Union of Basic and Clinical Pharmacology. CXXII. Applying an objective evaluation to the status "
+  ],
+  "pmids": [
+   "42792867",
+   "42719965",
+   "42269381"
+  ]
+ },
+ "C20orf195": {
+  "grade": "B",
+  "n_pubmed_any": 0,
+  "top_titles": [
+   "Epigenome-wide placental methylation landscapes in relation to antenatal depressive symptoms.",
+   "Oncogenic Signalling and Immune Checkpoint Crosstalk in Cancer: Emerging Targets and Precision Therapeutic Str",
+   "Immunotherapy Resistance in dMMR/MSI-H Colorectal Cancer: Unraveling Mechanisms and Exploring Overcoming Strat"
+  ],
+  "pmids": [
+   "42744221",
+   "42669994",
+   "42590903"
+  ]
+ },
+ "TBX21": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [],
+  "pmids": []
+ },
+ "CLDN20": {
+  "grade": "NONE",
+  "n_pubmed_any": 3,
+  "top_titles": [
+   "Elevated cytokines in osteoporotic blood correlate with immune microenvironment shifts and dysregulated circRN",
+   "Egg Deposition-Associated Immune Transition and Tfh-Like Humoral Features During Schistosoma japonicum Infecti",
+   "H3K9ac promoter profiling and their association with gene expression in immune cells of T2-high asthma patient"
+  ],
+  "pmids": [
+   "42780614",
+   "42760867",
+   "42748633"
+  ]
+ },
+ "ZNF460": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "Transcriptomic analysis reveals the potential crosstalk genes and immune relationship between IgA nephropathy ",
+   "A bioinformatics analysis: ZFHX4 is associated with metastasis and poor survival in ovarian cancer.",
+   "A Mouse Brain-based Multi-omics Integrative Approach Reveals Potential Blood Biomarkers for Ischemic Stroke."
+  ],
+  "pmids": [
+   "36793719",
+   "35915456",
+   "32868372"
+  ]
+ },
+ "TEDDM1": {
+  "grade": "NONE",
+  "n_pubmed_any": 3,
+  "top_titles": [
+   "A prostate cancer-specific super-enhancer at 1q42.3 regulates the CAPN2 and KRT19.",
+   "The E3 ubiquitin ligase IDOL suppresses PRRSV replication by targeting viral Nsp3 for SQSTM1-mediated selectiv",
+   "Modified Fuzheng Yiliu Decoction chemosensitizes colorectal cancer by inhibiting cancer stem cell metabolism a"
+  ],
+  "pmids": [
+   "42772564",
+   "42742217",
+   "42177885"
+  ]
+ },
+ "ANGPT1": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "TMEM45 protein family - Ancient residents of the cell endomembrane.",
+   "Genome-wide association analysis identifies a GLUL haplotype for familial hepatitis B virus-related hepatocell",
+   "Identification and characterization of novel and unknown mouse epididymis-specific genes by complementary DNA "
+  ],
+  "pmids": [
+   "41959721",
+   "28662289",
+   "16707773"
+  ]
+ },
+ "TRIM63": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "Tissue Olink Proteomics Analysis Reveals CCL17 as a Potential Biomarker in Patients With Pressure Ulcers.",
+   "Furmonertinib inhibits non-small cell lung cancer progression through ANGPT1-mediated regulation of cell migra",
+   "Altered ANG/TIE gene expression in advanced ovarian cancer is not accompanied by disproportionate body water a"
+  ],
+  "pmids": [
+   "42764272",
+   "42724281",
+   "42680803"
+  ]
+ },
+ "PRRC2A": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "Integrated RNA-seq and ATAC-seq analyses reveal muscle development differences between european meat pigeon an",
+   "Severe burn disrupts tissue-specific clock gene expression in peripheral blood mononuclear cells and skeletal ",
+   "Imeglimin provides dual hepatic and skeletal muscle protection in experimental MASH-associated sarcopenia."
+  ],
+  "pmids": [
+   "42780728",
+   "42770634",
+   "42759777"
+  ]
+ },
+ "LRRC32": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "Development of m6A-related prognostic models for survival in lung squamous cell carcinoma with different PD-L1",
+   "PRRC2A-mediated m(6)A modification on NCOA4 promotes thymic epithelial tumor progression through PKM2-induced ",
+   "PRRC2A deficiency disrupts m6A-dependent RNA processing and meiosis in human spermatogenesis."
+  ],
+  "pmids": [
+   "42724890",
+   "42420246",
+   "42411761"
+  ]
+ },
+ "SMIM20": {
+  "grade": "B",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "LRRC32 Mediates Resistance to Everolimus in Hormone Receptor-Positive, HER2-Negative Breast Cancer.",
+   "Differential protein abundance in colostrum-derived extracellular vesicles from bovine leukemia virus-infected",
+   "XGBoost-SHAP Interpretable Modeling Identifies and Validates an Eight-Gene Biomarker for Hepatic Encephalopath"
+  ],
+  "pmids": [
+   "42761613",
+   "42591436",
+   "42589578"
+  ]
+ },
+ "HIST1H2BE": {
+  "grade": "B",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "Postnatal expression of phoenixin-14 and GPR173 gene and protein in the mice testis and its effect on steroido",
+   "Serum phoenixin-14 shows no association with metabolic syndrome in children with obesity: a cross-sectional st",
+   "Sex-dependent analgesic effects of phoenixin-14 on mechanical allodynia in mouse models of neuropathic and inf"
+  ],
+  "pmids": [
+   "42705557",
+   "42682647",
+   "42546263"
+  ]
+ },
+ "HIST1H3C": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "Identification and verification of XDH genes in ROS induced oxidative stress response of osteoarthritis based ",
+   "Immune-relevant genes of systemic lupus erythematosus by transcriptome profiling analysis.",
+   "circRNA-DURSA regulates trophoblast apoptosis via miR-760-HIST1H2BE axis in unexplained recurrent spontaneous "
+  ],
+  "pmids": [
+   "40804350",
+   "35964416",
+   "34938599"
+  ]
+ },
+ "XKR9": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "Development of the cf-MMSP Assay for Enhanced Analytical Sensitivity of Methylated DNA in Breast Cancer Liquid",
+   "An exceptionally rare case of a diffuse midline glioma with concomitant H3.1 K27M and G34R mutations in the HI",
+   "From Pediatric to Adult Brain Cancer: Exploring Histone H3 Mutations in Australian Brain Cancer Patients."
+  ],
+  "pmids": [
+   "42334419",
+   "39815339",
+   "38001908"
+  ]
+ },
+ "HELLS": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "The Xkr protein family-From apoptosis executors to diverse physiological functions regulators.",
+   "Validation of Polymorphisms Associated with the Immune Response After Vaccination Against Porcine Reproductive",
+   "Cryo-EM structures of the caspase-activated protein XKR9 involved in apoptotic lipid scrambling."
+  ],
+  "pmids": [
+   "41830132",
+   "40284797",
+   "34263724"
+  ]
+ },
+ "FGFR2": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "Narciclasine Exerts Anticancer Activity in Colorectal Cancer Cells in Association with HELLS Downregulation an",
+   "Evaluation of the subtype-specific epigenetic prognostic association of HELLS in non-small cell lung cancer: i",
+   "Infirmifilum tikiterense sp. nov., a novel free-living hyperthermophilic anaerobic heterotrophic archaeon isol"
+  ],
+  "pmids": [
+   "42797381",
+   "42724720",
+   "42709040"
+  ]
+ },
+ "CNTNAP3B": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "FGFR2 Fusions in Pancreatobiliary and Ampullary Cancers: High Detection Rate in FFPE Specimens of Intrahepatic",
+   "Skin Basal Cell Carcinosarcoma in a Trichoblastic Guise-Molecular Characterization of a Novel Entity Mimicking",
+   "Personalized Therapy in Advanced Cholangiocarcinoma: Contemporary Treatment Approaches and Future Directions."
+  ],
+  "pmids": [
+   "42782905",
+   "42782842",
+   "42777170"
+  ]
+ },
+ "ZNF320": {
+  "grade": "NONE",
+  "n_pubmed_any": 4,
+  "top_titles": [
+   "Shared Blood Transcriptomic and Pathway Signatures in Major Depression, Generalized Anxiety, and Obsessive-Com",
+   "Genetic characteristics of primary bone marrow large B-cell lymphoma.",
+   "Identification of Genetic Factors Related With Nonhereditary Colorectal Polyposis and Its Recurrence Through G"
+  ],
+  "pmids": [
+   "41760108",
+   "40774060",
+   "39629711"
+  ]
+ },
+ "C1RL": {
+  "grade": "C",
+  "n_pubmed_any": 5,
+  "top_titles": [
+   "ZNF320 is a hypomethylated prognostic biomarker involved in immune infiltration of hepatocellular carcinoma an",
+   "Identification of key genes and pathways involved in microsatellite instability in colorectal cancer.",
+   "Can Genetic Analysis of Putative Blood Alzheimer's Disease Biomarkers Lead to Identification of Susceptibility"
+  ],
+  "pmids": [
+   "36287187",
+   "30664178",
+   "26625115"
+  ]
+ }
+}

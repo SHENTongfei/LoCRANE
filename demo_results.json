@@ -1,0 +1,28 @@
+{
+ "n_train": 96,
+ "n_val": 24,
+ "epochs": 60,
+ "seed": 42,
+ "device": "cpu",
+ "params_M": 1.518,
+ "val_MAE_years": 23.334,
+ "val_spearman": 0.1922,
+ "val_band_acc": 0.5833,
+ "conformal_q90_years": 20.037,
+ "certified_rate_val": 0.4583,
+ "certified_rate_L_band": 0.0909,
+ "note": "demo = pipeline verification on a 120-sample real slice with a reduced objective; NOT comparable to the certified full-cohort numbers (results/headlines_full.json: OOF MAE 13.60 y, Spearman 0.696).",
+ "bundle_provenance": {
+  "source": "D-1a (Cell Rep Med 2026 companion, Mendeley doi:10.17632/fpf4y72kfz.1, CC BY 4.0)",
+  "slice": "stratified from frozen fold-0 feature representation (fe_cache_f0_full.npz)",
+  "bands": {
+   "Y": 13,
+   "M": 51,
+   "L": 56
+  },
+  "age_range": [
+   24.0,
+   106.0
+  ]
+ }
+}

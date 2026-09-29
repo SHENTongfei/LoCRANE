@@ -1,0 +1,13 @@
+{
+ "n": 1715,
+ "nM_70_90": 120,
+ "nL_90p": 795,
+ "obs_std": 0.2869972887998407,
+ "p_circ_one_std": 0.1235,
+ "p_circ_two_std": 0.1235,
+ "null_mean_std": 0.5482243001390986,
+ "obs_fine_m": 0.11114761982401447,
+ "p_circ_one_fine_m": 0.129,
+ "p_circ_two_fine_m": 0.129,
+ "null_mean_fine_m": 0.20756001839218935
+}

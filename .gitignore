@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+runs_v3/
+*.log
+*.lock
+data_v3/fe_cache_*.npz
+data_v3/plm_*.npz
+runs_v3/ckpt_cg/
+.ipynb_checkpoints/

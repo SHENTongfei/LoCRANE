@@ -1,0 +1,45 @@
+{
+ "pre_registered": {
+  "k_arms": [
+   5,
+   20
+  ],
+  "k100": "INFEASIBLE (n=66/64 < 100, documented)",
+  "n_resample_seeds": 10,
+  "WIN": "MONO and mean_delta(20)>0.05yr and mean_delta(5)>0",
+  "KILL": "else -> zero-shot saturated, adaptation adds nothing (honest kill-line)"
+ },
+ "cohort2": {
+  "n": 66,
+  "MAE_base": 17.659258849693067,
+  "AUC_base": 0.8207720588235294,
+  "cohort_note": "Israel chip whole blood (independent population)",
+  "delta_mean_k5": 0.163016813309466,
+  "delta_pos_frac_k5": 0.4,
+  "auc_probe_k5": 0.7525435669262144,
+  "mae_probe_k5": 17.496242036383602,
+  "delta_mean_k20": 3.531817703661711,
+  "delta_pos_frac_k20": 1.0,
+  "auc_probe_k20": 0.8582449017586068,
+  "mae_probe_k20": 14.127441146031357,
+  "MONO": true,
+  "VERDICT": "WIN"
+ },
+ "gtex": {
+  "n": 64,
+  "MAE_base": 77.73539471626282,
+  "AUC_base": 0.640625,
+  "cohort_note": "GTEx tissue reference (cross-platform/tissue disclosure)",
+  "delta_mean_k5": 55.83155484280344,
+  "delta_pos_frac_k5": 1.0,
+  "auc_probe_k5": 0.5166521002171726,
+  "mae_probe_k5": 21.903839873459376,
+  "delta_mean_k20": 53.80586778467351,
+  "delta_pos_frac_k20": 1.0,
+  "auc_probe_k20": 0.5392561983471074,
+  "mae_probe_k20": 23.929526931589308,
+  "MONO": false,
+  "VERDICT": "KILL"
+ },
+ "protocol_ref": "TAIL_PROTOCOL_v4 W2 cohort-fast-adaptation meta-lite"
+}

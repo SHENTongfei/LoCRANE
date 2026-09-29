@@ -1,0 +1,12 @@
+{
+ "n_val": 345,
+ "MAE_eager": 12.77224604288737,
+ "MAE_cg": 12.79003969275433,
+ "MAE_diff": 0.017793649866961303,
+ "rho_eager": 0.6687017962106987,
+ "rho_cg": 0.6700090439285673,
+ "pair_spearman": 0.9997323155870649,
+ "demean_corr": 0.9996961018869962,
+ "note": "eager=best-val state / cg=final-epoch state (cosine plateau); tol: pair_spearman>=0.995 & |dMAE|<=0.20",
+ "PASS": true
+}

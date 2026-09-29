@@ -1,0 +1,45 @@
+{
+ "q_envelope": 31.344616442095507,
+ "alpha": 0.1,
+ "coverage": {
+  "band0": 0.9567901234567902,
+  "band1": 0.8888888888888888,
+  "band2": 0.8263888888888888
+ },
+ "coverage_cal_ok": true,
+ "certified_frac": {
+  "band0": 0.043209876543209874,
+  "band1": 0.1111111111111111,
+  "band2": 0.1736111111111111
+ },
+ "monotonic_L_M_Y": true,
+ "certificate_curve": [
+  {
+   "bin": "50-60",
+   "n": 18,
+   "certified_frac": 0.05555555555555555
+  },
+  {
+   "bin": "70-80",
+   "n": 15,
+   "certified_frac": 0.13333333333333333
+  },
+  {
+   "bin": "90-100",
+   "n": 108,
+   "certified_frac": 0.17592592592592593
+  },
+  {
+   "bin": "100-114",
+   "n": 36,
+   "certified_frac": 0.16666666666666666
+  }
+ ],
+ "validity_gate": {
+  "n_perm": 200,
+  "certified_frac_null_mean": 0.17361111111111113,
+  "certified_frac_null_max": 0.1736111111111111,
+  "collapses_under_shuffle": false
+ },
+ "note": "model-agnostic: applies to any clock output + calibration split; first one-sided conformal deceleration certificate on transcriptome"
+}

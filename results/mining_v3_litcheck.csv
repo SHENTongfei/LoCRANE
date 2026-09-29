@@ -1,0 +1,49 @@
+gene,grade,n_pubmed_any,gip_all,z_LM,rank_all,top_title
+ATF6B,C,5,0.0139765956206247,-1.4830181213005935e-05,1,(no hit)
+GCNT7,NONE,0,0.0138882034923881,-1.7156386866683812e-05,2,Heat Stress-Induced Male Reproductive Dysfunction in Brandt's Vole (Lasiopodomys brandtii): A Central Role for
+TENC1,C,5,0.0137342796195298,-2.4731062446402708e-05,3,(no hit)
+POU5F2,C,5,0.0137272628257051,2.1580230348727933e-05,4,Human and Mouse Nephrin and Their Interactions With 13 Proteins: An In Silico Study.
+CKMT2,C,5,0.0134483816102147,-3.538971438665642e-05,5,Comparative analysis of mesenchymal stromal cells derived from ovarian follicular aspirates of young and aged 
+P2RY8,C,5,0.0134145439369604,-4.999956979129488e-05,6,Biological effects of a tested commercial fragrance formulation in rats: oxidative and molecular alterations a
+GPR156,C,5,0.0133817758643999,-1.625381901619225e-05,7,In vivo genome-wide CRISPR screens of human T cells in solid tumours.
+C20orf24,C,5,0.0133555750828236,3.694514294447118e-05,8,Reply to Tarchini et al.: Evidence for a GPR156 role in central stress responses in addition to its inner-ear 
+LRRC25,C,5,0.0133363908389583,4.859908925505135e-05,9,Fanconi anemia complementation group C gene (FANCC) association with hereditary and sporadic renal tumors.
+ABCA13,C,5,0.0133043515030294,-6.583273701326513e-05,10,Preliminary effects of a four-month circuit training intervention on cognitive function and exploratory plasma
+TMTC1,C,5,0.0132684290409088,2.28403144093693e-05,11,Integrating machine learning and GWAS for variant prioritization in the INCIPE cohort highlights ABC transport
+GPR162,C,5,0.0132665312150493,-1.8265853976278312e-05,12,Establishment of a Predictive Model for Mortality in Sepsis Patients Using WGCNA and Machine Learning Algorith
+HLA-DOA,C,5,0.013225703779608,-3.27185412801103e-05,13,Genetic profiling of synchronous pituitary corticotroph adenomas.
+GPR115,B,5,0.013183366600424,-4.982908254752517e-05,14,Genetic Variants at the NAT2 and HLA-DOA are Associated With Anti-Tuberculosis Drug-Induced Liver Injury Susce
+SELENBP1,B,5,0.013166616554372,-5.587722045469353e-05,15,Risk scoring model for lung adenocarcinoma based on PD-L1 related signature reveals prognostic predictability 
+TEKT2,C,5,0.013057817495428,-2.644590502540005e-05,16,Somatic Mutation Profile in Normal Tissue Adjacent to Tumor in Colorectal Carcinoma Patients: Functional Effec
+HIST1H2BB,B,5,0.0130363994278013,2.8603411341300303e-05,17,Tekt2 regulates hair cell development and function by maintaining normal kinocilium morphology in zebrafish.
+GPX2,C,5,0.0129746044520288,-0.0001011130142859,18,Analysis of key genes and pathways of knee osteoarthritis based on GEO data mining.
+C22orf46,NONE,4,0.0129592041950672,-9.430705841838328e-05,19,Spatiotemporal expression and hormonal regulation of antioxidant enzymes in the bovine oviduct epithelium.
+C1orf141,C,5,0.0129547401564195,-0.0001301672331146,20,Genetic architecture of lung cancer revealed by common and rare variant analyses across population-scale bioba
+CXorf36,B,5,0.0129418769851326,-4.203240874283841e-05,21,Immunometabolic regulation and tissue-resident immunity in autoimmune uveitis: from genetic susceptibility to 
+CD109,C,5,0.0129267540760338,-2.1686053502335085e-05,22,Molecular insights into gender-specific differences in rheumatoid arthritis: A study using high-throughput seq
+FBN1,C,5,0.0129157522693276,1.945313569246508e-05,23,Macrophage restriction in Drosophila wounds and tumors via a matrix degradation-moderating protease inhibitor.
+IFI27,C,5,0.012886917986907,5.153222927498568e-05,24,Molecular heterogeneity and diagnostic performance of phenotype-driven multigene panel testing in patients wit
+LRRN2,C,5,0.0128476912155747,-8.934304908797476e-05,25,Mendelian Randomization and Bioinformatics Identify IFI27 as a Candidate Biomarker for Recurrent Pregnancy Los
+CD276,C,5,0.0128225271124392,-3.451707471350163e-05,26,Lrrn-mediated retinal ganglion cell targeting drives visual circuit assembly for brightness and contrast detec
+WNT4,B,5,0.012811475014314,-7.701243007973832e-05,27,A Multi-Targeting Chimeric Antigen Receptor-T Cell Platform to Overcome Antigen Heterogeneity in the Treatment
+KIR3DS1,C,5,0.0127884676679968,-3.3667434380811514e-05,28,Local Surgicel/rhBMP-7 delivery is associated with renal repair responses after surgically induced acute kidne
+GPR153,C,5,0.0127790269441902,-3.937739797903357e-06,29,"KIR genes influence endometrial dysbiosis, chronic endometritis and antibiotic response in infertile women."
+TAP2,C,5,0.012774200621061,-2.860425442618715e-05,30,Multi-Omics Analysis Identifies TTYH3 and MPG as Candidate Osteoporosis-Associated Biomarkers in Osteoblasts a
+C20orf195,B,0,0.0108372610760852,9.609061052870914e-05,504,Epigenome-wide placental methylation landscapes in relation to antenatal depressive symptoms.
+TBX21,C,5,0.0111352298874408,9.539945672318904e-05,406,(no hit)
+CLDN20,NONE,3,0.0112485455116257,9.15780695738645e-05,361,Elevated cytokines in osteoporotic blood correlate with immune microenvironment shifts and dysregulated circRN
+ZNF460,C,5,0.0120762298582121,8.921706106576881e-05,118,Transcriptomic analysis reveals the potential crosstalk genes and immune relationship between IgA nephropathy 
+TEDDM1,NONE,3,0.010743428976275,7.946533370704683e-05,532,A prostate cancer-specific super-enhancer at 1q42.3 regulates the CAPN2 and KRT19.
+ANGPT1,C,5,0.0116322512971237,7.351418057219728e-05,224,TMEM45 protein family - Ancient residents of the cell endomembrane.
+TRIM63,C,5,0.0114363451953977,7.305534905592548e-05,277,Tissue Olink Proteomics Analysis Reveals CCL17 as a Potential Biomarker in Patients With Pressure Ulcers.
+PRRC2A,C,5,0.0117633338551968,7.10766893581721e-05,178,Integrated RNA-seq and ATAC-seq analyses reveal muscle development differences between european meat pigeon an
+LRRC32,C,5,0.010299718985334,6.995892709611479e-05,642,Development of m6A-related prognostic models for survival in lung squamous cell carcinoma with different PD-L1
+SMIM20,B,5,0.0109630337450653,6.987129382766348e-05,467,"LRRC32 Mediates Resistance to Everolimus in Hormone Receptor-Positive, HER2-Negative Breast Cancer."
+HIST1H2BE,B,5,0.0119248126633465,-0.0001310608916307,144,Postnatal expression of phoenixin-14 and GPR173 gene and protein in the mice testis and its effect on steroido
+HIST1H3C,C,5,0.0125452031381428,-0.0001237790087203,47,Identification and verification of XDH genes in ROS induced oxidative stress response of osteoarthritis based 
+XKR9,C,5,0.0108861205168068,-0.0001202597608186,491,Development of the cf-MMSP Assay for Enhanced Analytical Sensitivity of Methylated DNA in Breast Cancer Liquid
+HELLS,C,5,0.0127086298540234,-0.000112486569089,34,The Xkr protein family-From apoptosis executors to diverse physiological functions regulators.
+FGFR2,C,5,0.0109059680020436,-0.0001058680176702,485,Narciclasine Exerts Anticancer Activity in Colorectal Cancer Cells in Association with HELLS Downregulation an
+CNTNAP3B,C,5,0.0119466025149449,-0.0001030071004519,137,FGFR2 Fusions in Pancreatobiliary and Ampullary Cancers: High Detection Rate in FFPE Specimens of Intrahepatic
+ZNF320,NONE,4,0.011698980955407,-0.0001016785419805,198,"Shared Blood Transcriptomic and Pathway Signatures in Major Depression, Generalized Anxiety, and Obsessive-Com"
+C1RL,C,5,0.0111848836531862,-0.000100354629394,386,ZNF320 is a hypomethylated prognostic biomarker involved in immune infiltration of hepatocellular carcinoma an

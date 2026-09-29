@@ -1,0 +1,47 @@
+{
+ "n": 1715,
+ "nL": 795,
+ "nM": 738,
+ "nY": 182,
+ "model": "B3-scale cg_full 5-fold x 5-seed OOF ensemble (final-epoch states)",
+ "oof": {
+  "MAE": 13.597976249494636,
+  "spearman": 0.6961144684809562,
+  "MAE_by_band": {
+   "band0": 13.29191192794632,
+   "band1": 13.149047430808631,
+   "band2": 14.08478527428969
+  },
+  "resid_mean_by_band": {
+   "band0": 7.720939393095919,
+   "band1": 2.329609660533708,
+   "band2": -4.629725171934884
+  }
+ },
+ "H1": {
+  "obs_tail_gap": -6.636660003662115,
+  "p_perm_less": 0.0,
+  "null_mean": 27.34573129024506,
+  "n_perm": 2000
+ },
+ "H2_predpace": {
+  "obs_pace_ratio": 1.1900994042321285,
+  "p_perm_greater": 0.1305
+ },
+ "H4": {
+  "alpha": 0.1,
+  "q": 117.87578201649363,
+  "band_fracs": {
+   "band0": 0.005494505494505495,
+   "band1": 0.04200542005420054,
+   "band2": 0.0880503144654088
+  },
+  "monotone_Y_M_L": true,
+  "sig_decelerator_frac_L": 0.0880503144654088,
+  "L_enrich_pooled": 2.531446540880503
+ },
+ "H3_disclosure": {
+  "nr_L_over_Y_decile": 1.4974112750838129,
+  "interpretation": ">1 = tail uncertainty INFLATION (clock miscalibration at tail), NOT noise homeostasis"
+ }
+}

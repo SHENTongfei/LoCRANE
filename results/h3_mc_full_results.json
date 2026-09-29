@@ -1,0 +1,8 @@
+{
+ "n": 1715,
+ "K": 20,
+ "nr_L_over_Y": 1.0004128286836051,
+ "null_mean": 1.0004128286836047,
+ "p_perm_less": 1.0,
+ "gate": "nr<=0.85 & p<0.01 (pre-registered H3 menu, MC-dropout K=20 row)"
+}

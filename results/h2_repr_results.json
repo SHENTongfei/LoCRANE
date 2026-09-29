@@ -1,0 +1,20 @@
+{
+ "b3tail": {
+  "n": 324,
+  "bin_velocity_ratio": 0.6752363228416429,
+  "pc1_slope_ratio": 0.40792966594204616,
+  "pairwise_velocity_ratio": 1.064503788948059,
+  "p_perm_less": 0.937,
+  "null_mean": 0.37544954200343283,
+  "p_perm_pc1_less": 0.564
+ },
+ "b3s0": {
+  "n": 324,
+  "bin_velocity_ratio": 0.7210521463854614,
+  "pc1_slope_ratio": -0.6067374015273381,
+  "pairwise_velocity_ratio": 1.271857738494873,
+  "p_perm_less": 0.959,
+  "null_mean": 0.37944474361887165,
+  "p_perm_pc1_less": 0.6966966966966966
+ }
+}
