@@ -1,0 +1,130 @@
+{
+ "protocol": "R5-P1-2 full composition ablation (FIXED x48b): all 15 equal-weight subsets of {deep(v4-3),EN-40,EN-500,SVR-500}, 15 locked folds; deep per-sample preds archived x48_deep_preds.npz",
+ "headline_eq3p_MAE": 5.7401,
+ "composition_table": [
+  {
+   "combo": "deep + EN-40 + EN-500",
+   "MAE": 5.7401,
+   "delta_vs_eq3p": 0.0,
+   "wins_of_eq3p": "headline",
+   "p": 1.0
+  },
+  {
+   "combo": "deep + EN-40",
+   "MAE": 5.7467,
+   "delta_vs_eq3p": 0.0066,
+   "wins_of_eq3p": "8/15",
+   "p": 0.359863,
+   "holm_p": 0.359863
+  },
+  {
+   "combo": "deep + EN-40 + EN-500 + SVR-500",
+   "MAE": 5.7533,
+   "delta_vs_eq3p": 0.0132,
+   "wins_of_eq3p": "9/15",
+   "p": 0.151398,
+   "holm_p": 0.302796
+  },
+  {
+   "combo": "deep + EN-40 + SVR-500",
+   "MAE": 5.7648,
+   "delta_vs_eq3p": 0.0246,
+   "wins_of_eq3p": "8/15",
+   "p": 0.138428,
+   "holm_p": 0.415284
+  },
+  {
+   "combo": "deep + EN-500",
+   "MAE": 5.768,
+   "delta_vs_eq3p": 0.0279,
+   "wins_of_eq3p": "9/15",
+   "p": 0.047302,
+   "holm_p": 0.189208
+  },
+  {
+   "combo": "deep + EN-500 + SVR-500",
+   "MAE": 5.7722,
+   "delta_vs_eq3p": 0.032,
+   "wins_of_eq3p": "10/15",
+   "p": 0.041626,
+   "holm_p": 0.20813
+  },
+  {
+   "combo": "EN-500",
+   "MAE": 5.7767,
+   "delta_vs_eq3p": 0.0366,
+   "wins_of_eq3p": "12/15",
+   "p": 0.012787,
+   "holm_p": 0.089509
+  },
+  {
+   "combo": "EN-40 + EN-500",
+   "MAE": 5.7776,
+   "delta_vs_eq3p": 0.0374,
+   "wins_of_eq3p": "12/15",
+   "p": 0.036499,
+   "holm_p": 0.218994
+  },
+  {
+   "combo": "EN-40 + EN-500 + SVR-500",
+   "MAE": 5.781,
+   "delta_vs_eq3p": 0.0409,
+   "wins_of_eq3p": "11/15",
+   "p": 0.010773,
+   "holm_p": 0.086184
+  },
+  {
+   "combo": "EN-500 + SVR-500",
+   "MAE": 5.791,
+   "delta_vs_eq3p": 0.0508,
+   "wins_of_eq3p": "13/15",
+   "p": 0.005127,
+   "holm_p": 0.056397
+  },
+  {
+   "combo": "EN-40 + SVR-500",
+   "MAE": 5.8059,
+   "delta_vs_eq3p": 0.0658,
+   "wins_of_eq3p": "12/15",
+   "p": 0.009033,
+   "holm_p": 0.081297
+  },
+  {
+   "combo": "deep + SVR-500",
+   "MAE": 5.8279,
+   "delta_vs_eq3p": 0.0878,
+   "wins_of_eq3p": "12/15",
+   "p": 0.006226,
+   "holm_p": 0.06226
+  },
+  {
+   "combo": "EN-40",
+   "MAE": 5.839,
+   "delta_vs_eq3p": 0.0988,
+   "wins_of_eq3p": "13/15",
+   "p": 0.002136,
+   "holm_p": 0.025632
+  },
+  {
+   "combo": "SVR-500",
+   "MAE": 5.8982,
+   "delta_vs_eq3p": 0.158,
+   "wins_of_eq3p": "14/15",
+   "p": 0.00058,
+   "holm_p": 0.00754
+  },
+  {
+   "combo": "deep",
+   "MAE": 5.9007,
+   "delta_vs_eq3p": 0.1605,
+   "wins_of_eq3p": "13/15",
+   "p": 0.000153,
+   "holm_p": 0.002142
+  }
+ ],
+ "eq3_base_reference": {
+  "MAE": 5.7568,
+  "vs_eq3p_p": 0.01767,
+  "wins_of_eq3p": "10/15"
+ }
+}

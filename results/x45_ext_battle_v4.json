@@ -1,0 +1,245 @@
+{
+ "meta": {
+  "universe_genes": 6395,
+  "sel40": [
+   "OXNAD1",
+   "NELL2",
+   "CAMK4",
+   "RASGRF2",
+   "NT5E",
+   "ITGA6",
+   "PDGFRB",
+   "IL7R",
+   "CCR7",
+   "NCR1",
+   "ID3",
+   "LEF1",
+   "LGR6",
+   "DCHS1",
+   "GPR56",
+   "FAM134B",
+   "ABLIM1",
+   "RORC",
+   "SH2D2A",
+   "DPP4",
+   "ATF7IP2",
+   "TCF7",
+   "CCR6",
+   "ZIK1",
+   "CD27",
+   "PLAG1",
+   "ZSCAN18",
+   "EPHX2",
+   "FAM102A",
+   "LDHB",
+   "FAM179A",
+   "AQP3",
+   "SNX9",
+   "MYC",
+   "TTC38",
+   "SYTL3",
+   "PLEKHG4",
+   "GPA33",
+   "CD40LG",
+   "CHMP7"
+  ],
+  "internal_YC_n": 760,
+  "internal_L_n": 795,
+  "protocol": "clean rebuild hvg8000\u2229ext space; train-only selection; QN harmonization fit on internal; ALL methods see identical harmonized matrices; members trained on full internal YC (760)"
+ },
+ "results": {
+  "ext1_GTEX": {
+   "EN-40": {
+    "MAE": 19.15,
+    "MAE_CI95": [
+     16.83,
+     21.6
+    ],
+    "PCC": 0.252,
+    "SP": 0.328,
+    "MAE_by_band": {
+     "0": 26.11,
+     "1": 12.2
+    }
+   },
+   "EN-500": {
+    "MAE": 19.22,
+    "MAE_CI95": [
+     17.01,
+     21.64
+    ],
+    "PCC": 0.236,
+    "SP": 0.299,
+    "MAE_by_band": {
+     "0": 26.17,
+     "1": 12.28
+    }
+   },
+   "SVR-500": {
+    "MAE": 18.85,
+    "MAE_CI95": [
+     16.61,
+     21.24
+    ],
+    "PCC": 0.375,
+    "SP": 0.394,
+    "MAE_by_band": {
+     "0": 26.04,
+     "1": 11.67
+    }
+   },
+   "XGB-500": {
+    "MAE": 18.7,
+    "MAE_CI95": [
+     16.4,
+     21.25
+    ],
+    "PCC": 0.342,
+    "SP": 0.332,
+    "MAE_by_band": {
+     "0": 26.11,
+     "1": 11.28
+    }
+   },
+   "LoCRANE-MT-ens5": {
+    "MAE": 19.02,
+    "MAE_CI95": [
+     16.71,
+     21.34
+    ],
+    "PCC": 0.182,
+    "SP": 0.197,
+    "MAE_by_band": {
+     "0": 25.63,
+     "1": 12.42
+    }
+   },
+   "LoCRANE-Ens-eq3": {
+    "MAE": 19.13,
+    "MAE_CI95": [
+     16.9,
+     21.5
+    ],
+    "PCC": 0.252,
+    "SP": 0.322,
+    "MAE_by_band": {
+     "0": 25.97,
+     "1": 12.3
+    }
+   },
+   "LinEns-noDeep": {
+    "MAE": 19.19,
+    "MAE_CI95": [
+     16.94,
+     21.58
+    ],
+    "PCC": 0.285,
+    "SP": 0.427,
+    "MAE_by_band": {
+     "0": 26.14,
+     "1": 12.24
+    }
+   }
+  },
+  "ext2_cohort2": {
+   "EN-40": {
+    "MAE": 21.45,
+    "MAE_CI95": [
+     19.09,
+     23.73
+    ],
+    "PCC": 0.647,
+    "SP": 0.609,
+    "MAE_by_band": {
+     "0": 30.43,
+     "1": 15.49,
+     "2": 29.42
+    }
+   },
+   "EN-500": {
+    "MAE": 21.35,
+    "MAE_CI95": [
+     19.11,
+     23.61
+    ],
+    "PCC": 0.615,
+    "SP": 0.547,
+    "MAE_by_band": {
+     "0": 30.22,
+     "1": 15.43,
+     "2": 29.35
+    }
+   },
+   "SVR-500": {
+    "MAE": 21.57,
+    "MAE_CI95": [
+     19.29,
+     23.8
+    ],
+    "PCC": 0.606,
+    "SP": 0.523,
+    "MAE_by_band": {
+     "0": 29.86,
+     "1": 15.8,
+     "2": 30.04
+    }
+   },
+   "XGB-500": {
+    "MAE": 22.0,
+    "MAE_CI95": [
+     19.74,
+     24.15
+    ],
+    "PCC": 0.368,
+    "SP": 0.466,
+    "MAE_by_band": {
+     "0": 31.07,
+     "1": 16.37,
+     "2": 28.55
+    }
+   },
+   "LoCRANE-MT-ens5": {
+    "MAE": 21.76,
+    "MAE_CI95": [
+     19.43,
+     24.14
+    ],
+    "PCC": 0.295,
+    "SP": 0.219,
+    "MAE_by_band": {
+     "0": 29.79,
+     "1": 15.92,
+     "2": 30.89
+    }
+   },
+   "LoCRANE-Ens-eq3": {
+    "MAE": 21.46,
+    "MAE_CI95": [
+     19.13,
+     23.81
+    ],
+    "PCC": 0.526,
+    "SP": 0.487,
+    "MAE_by_band": {
+     "0": 30.15,
+     "1": 15.51,
+     "2": 29.89
+    }
+   },
+   "LinEns-noDeep": {
+    "MAE": 21.4,
+    "MAE_CI95": [
+     19.05,
+     23.67
+    ],
+    "PCC": 0.66,
+    "SP": 0.624,
+    "MAE_by_band": {
+     "0": 30.32,
+     "1": 15.46,
+     "2": 29.39
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "protocol": "v4 ablation @15-rep lock, eq3 blend, winner=v4-3_mono",
+ "winner_eq3_mean": 5.7402000000000015,
+ "base_eq3_mean": 5.756800000000001,
+ "minus_bandaux": {
+  "eq3_mean": 5.743104548203318,
+  "removal_cost": 0.002904548203316537,
+  "rep_wins_of_winner": "10/15",
+  "wilcoxon_p": 0.5994873046875
+ },
+ "minus_film": {
+  "eq3_mean": 5.759009669119852,
+  "removal_cost": 0.01880966911985027,
+  "rep_wins_of_winner": "11/15",
+  "wilcoxon_p": 0.041259765625
+ },
+ "minus_anchor": {
+  "eq3_mean": 5.818431337256181,
+  "removal_cost": 0.07823133725617915,
+  "rep_wins_of_winner": "12/15",
+  "wilcoxon_p": 0.0008544921875
+ },
+ "minus_realsex": {
+  "eq3_mean": 5.739653808192203,
+  "removal_cost": -0.0005461918077989125,
+  "rep_wins_of_winner": "7/15",
+  "wilcoxon_p": 0.803955078125
+ }
+}

@@ -1,0 +1,122 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue]{hyperref}
+\title{\textbf{LoCRANE --- Supplementary Material}\\
+\large Longevity-certified residual age network ensemble for transcriptomic aging clocks}
+\author{Tim Shen}
+\date{October 4, 2026}
+\begin{document}
+\maketitle
+\noindent This supplement accompanies the main text. All numbers are read from the
+frozen result tables released in \texttt{results/}; nothing is recomputed after
+evaluation. The locked protocol is \texttt{protocol\_lock.json}.
+
+\section{Figure source map and band definitions}
+Every panel of the six result figures is generated from a frozen JSON/NPZ table.
+\begin{table}[h]
+\centering\small
+\begin{tabular}{lll}
+\toprule
+Figure & Source table & Content \\
+\midrule
+Fig.~1 (internal battle) & \texttt{x41\_eq3\_from\_log.json}, \texttt{x20b\_...json}, \texttt{x47\_...json}, \texttt{x48\_...json} & 15-split lock, Holm forest, DL suite, composition \\
+Fig.~2 (ext1, GTEx blood) & \texttt{x45\_ext\_battle\_v4.json}, \texttt{x15c\_core3\_kshot\_v4.json} & zero-shot, $k$-shot, support coverage \\
+Fig.~3 (ext2, GSE123696) & same as Fig.~2 & cross-platform replication \\
+Fig.~4 (ablation) & \texttt{x42\_ablation.json} + screen journal & component costs, six-arm screen \\
+Fig.~5 (attribution) & \texttt{x43\_xai25.json} + attribution NPZ & 25-seed gated axes \\
+Fig.~6 (mining) & \texttt{MINING\_V4.json} + citation audit & levers, modules, geometry, probe \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Band definitions used in the per-band panels.} Age bands are
+Y ($\le 50$), M (51--89), L ($\ge 90$), following the cohort's verified
+longevity structure. In the external figures the age-band panels group each
+cohort's samples as out-of-support-young (below 50), in-support (50--89), and,
+for the microarray cohort, 90+; the support-coverage donuts print the exact
+arithmetic (32/64 and 27/66 out of the 50--89 training window). The internal
+per-band radial panel splits the working-age validation range into
+50--62 / 63--75 / 76--89 thirds, with radial length proportional to excess MAE.
+
+\section{Per-split locked results}
+Mean absolute error per locked split (working-age validation, $n_{\text{test}}\approx152$
+per split). \texttt{eq3}$'$ denotes the shipped hybrid; \texttt{base} the
+unregularized configuration; \texttt{pcc} the split-level Pearson correlation of
+\texttt{eq3}$'$.
+\begin{table}[h]
+\centering\small
+\begin{tabular}{lccccccccccccccc}
+\toprule
+split & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 \\
+\midrule
+eq3$'$ & 5.70 & 5.59 & 5.71 & 5.86 & 5.57 & 5.58 & 5.26 & 6.27 & 5.14 & 6.10 & 5.79 & 5.52 & 6.37 & 6.14 & 5.52 \\
+base & 5.68 & 5.57 & 5.71 & 5.84 & 5.58 & 5.62 & 5.28 & 6.30 & 5.17 & 6.08 & 5.82 & 5.58 & 6.42 & 6.18 & 5.55 \\
+\bottomrule
+\end{tabular}
+\end{table}
+Paired comparison: 10/15 splits favor eq3$'$, two-sided Wilcoxon $p=0.035$
+(adoption gate, pre-registered).
+
+\section{Full composition matrix}
+All fifteen equal-weight subsets of \{deep, EN-40, EN-500, SVR-500\} under the
+locked splits (\texttt{x48\_composition.json}). Headline eq3$'$ = 5.740; nearest
+rival deep+EN-40 at 5.747 (paired $p=0.36$); single-member configurations
+significantly worse after Holm correction (deep-only 5.901, EN-40-only 5.839,
+SVR-500-only 5.898; Holm $p\le 0.026$); best all-linear combination
+EN-40+SVR-500 at 5.806.
+
+\section{Disclosure ledger}
+\begin{enumerate}
+\item \textbf{Deep-layer seed direction rate 0.56.} Claims are carried at the
+ensemble level (10/15, $p=0.035$); the deep member alone is noisier than the
+conventional 0.80 bar.
+\item \textbf{EN-500 is an ensemble member.} The 12/15, $p=0.013$ comparison is a
+member-versus-frame comparison; all comparisons against non-member baselines sit
+at $p\le 0.006$.
+\item \textbf{External composition history.} The linear core's membership was
+identified with visibility into external few-shot results in an earlier round of
+the project. The neighboring composition \{EN-40, SVR-500\} tracks the core
+within 0.2 years everywhere, and the paper reports all combinations.
+\item \textbf{Support coverage.} 32/64 (ext1) and 27/66 (ext2) samples lie
+outside the 50--89 training support; external claims are restricted to relative
+orderings under identical inputs.
+\item \textbf{Attribution axis failure.} The FiLM per-gene attribution axis fails
+its pre-registered split-half gate ($\rho=0.435 < 0.6$) and is reported as
+failed; FiLM's claims rest on its ablation cost and module-level dimorphism
+spectrum (split-half 0.70).
+\item \textbf{PFKP grade correction.} PFKP's mortality association belongs to the
+source cohort study's supplementary screening table (HR 2.11, $p=0.035$), not to
+its main signature; the paper carries the supplementary-screen grade. The locked
+replication here is directional (HR 1.20, $p=0.17$).
+\item \textbf{Geometry config-dependence.} The class-centroid velocity statistic
+is reported for the monotonicity-trained representation (mean 0.93, 21/25 seeds
+below 1); earlier non-regularized configurations showed expansion, so the
+statistic is tied to the shipped configuration.
+\item \textbf{Unnominated genes.} ZNF518B and three further claims are graded
+unsupported by the literature audit and stand as falsifiable model-generated
+hypotheses.
+\end{enumerate}
+
+\section{Survival probe details (Vitality 90+, GSE65218)}
+Cohort: 151 Finnish nonagenarians, Illumina HumanHT-12 v4, 70 deaths over the
+follow-up window (Jylh\"av\"a et al., BMC Medical Genomics 7:54, 2014).
+Pre-registered hypotheses, fully locked consensus weights: (H1) signature-score
+Cox model adjusted for frailty and sex --- HR 1.14 (95\% CI 0.89--1.45,
+$p=0.31$), confirmed by 2{,}000-label permutation; (H2) tertile Kaplan--Meier
+separation --- log-rank $p=0.47$; (H3) per-gene directional agreement --- 7/10
+testable genes agree with the model (70\%). Nested cross-validated recalibration
+of the weights reaches C-index 0.540 against 0.585 for covariates alone
+($n=151$; 70 events power only HR~$\ge$~1.5). Gene-level associations inside the
+90+ band: GAL3ST4 HR 1.39 (1.09--1.76, $p=0.007$); PDZK1IP1 HR 1.21 ($p=0.095$);
+PFKP HR 1.20 ($p=0.17$, directional replication of the supplementary screen);
+NT5E HR 1.03 ($p=0.85$, null). Reading: the longevity signature answers band
+membership, not survival within the band; the two questions decouple.
+
+\section{Demo reproduction}
+\texttt{python code/run\_demo.py} runs the full recipe (anchor, FiLM, band
+auxiliary, monotonicity, hybrid blend) on the released real slice in about two
+minutes on CPU. Demo-scale numbers verify the pipeline only; the paper's numbers
+require the full cohort (Section~\ref{sec:data} of the repository README).
+\end{document}

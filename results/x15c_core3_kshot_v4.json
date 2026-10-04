@@ -1,0 +1,318 @@
+{
+ "ext1_GTEX": {
+  "k=5": {
+   "table": {
+    "en40": 22.46,
+    "en500": 22.35,
+    "svr": 21.22,
+    "xgb": 21.58,
+    "core3": 20.69,
+    "core2a": 20.82,
+    "core2b": 22.19,
+    "core2c": 21.26
+   },
+   "lin_best": "core3",
+   "all_lin_beat_all_baselines": false,
+   "vs": {
+    "en40": {
+     "per_ensemble_win": {
+      "core3": 0.62,
+      "core2a": 0.7,
+      "core2b": 0.51,
+      "core2c": 0.59
+     },
+     "per_ensemble_p_max": 0.172305
+    },
+    "en500": {
+     "per_ensemble_win": {
+      "core3": 0.7,
+      "core2a": 0.69,
+      "core2b": 0.6,
+      "core2c": 0.65
+     },
+     "per_ensemble_p_max": 0.007854
+    },
+    "svr": {
+     "per_ensemble_win": {
+      "core3": 0.57,
+      "core2a": 0.57,
+      "core2b": 0.43,
+      "core2c": 0.48
+     },
+     "per_ensemble_p_max": 0.961505
+    },
+    "xgb": {
+     "per_ensemble_win": {
+      "core3": 0.58,
+      "core2a": 0.62,
+      "core2b": 0.42,
+      "core2c": 0.45
+     },
+     "per_ensemble_p_max": 0.986181
+    }
+   }
+  },
+  "k=10": {
+   "table": {
+    "en40": 19.91,
+    "en500": 19.54,
+    "svr": 18.69,
+    "xgb": 18.93,
+    "core3": 18.44,
+    "core2a": 18.35,
+    "core2b": 19.49,
+    "core2c": 18.68
+   },
+   "lin_best": "core2a",
+   "all_lin_beat_all_baselines": false,
+   "vs": {
+    "en40": {
+     "per_ensemble_win": {
+      "core3": 0.85,
+      "core2a": 0.91,
+      "core2b": 0.7,
+      "core2c": 0.8
+     },
+     "per_ensemble_p_max": 0.0
+    },
+    "en500": {
+     "per_ensemble_win": {
+      "core3": 0.88,
+      "core2a": 0.88,
+      "core2b": 0.64,
+      "core2c": 0.85
+     },
+     "per_ensemble_p_max": 0.000485
+    },
+    "svr": {
+     "per_ensemble_win": {
+      "core3": 0.59,
+      "core2a": 0.67,
+      "core2b": 0.28,
+      "core2c": 0.47
+     },
+     "per_ensemble_p_max": 1.0
+    },
+    "xgb": {
+     "per_ensemble_win": {
+      "core3": 0.62,
+      "core2a": 0.65,
+      "core2b": 0.37,
+      "core2c": 0.57
+     },
+     "per_ensemble_p_max": 0.999991
+    }
+   }
+  },
+  "k=20": {
+   "table": {
+    "en40": 19.12,
+    "en500": 19.25,
+    "svr": 18.23,
+    "xgb": 18.52,
+    "core3": 18.0,
+    "core2a": 17.81,
+    "core2b": 18.82,
+    "core2c": 18.33
+   },
+   "lin_best": "core2a",
+   "all_lin_beat_all_baselines": false,
+   "vs": {
+    "en40": {
+     "per_ensemble_win": {
+      "core3": 0.95,
+      "core2a": 0.96,
+      "core2b": 0.72,
+      "core2c": 0.85
+     },
+     "per_ensemble_p_max": 0.0
+    },
+    "en500": {
+     "per_ensemble_win": {
+      "core3": 0.96,
+      "core2a": 0.94,
+      "core2b": 0.83,
+      "core2c": 0.93
+     },
+     "per_ensemble_p_max": 0.0
+    },
+    "svr": {
+     "per_ensemble_win": {
+      "core3": 0.69,
+      "core2a": 0.78,
+      "core2b": 0.22,
+      "core2c": 0.41
+     },
+     "per_ensemble_p_max": 1.0
+    },
+    "xgb": {
+     "per_ensemble_win": {
+      "core3": 0.83,
+      "core2a": 0.89,
+      "core2b": 0.34,
+      "core2c": 0.67
+     },
+     "per_ensemble_p_max": 1.0
+    }
+   }
+  }
+ },
+ "ext2_cohort2": {
+  "k=5": {
+   "table": {
+    "en40": 20.31,
+    "en500": 21.08,
+    "svr": 19.78,
+    "xgb": 24.55,
+    "core3": 19.0,
+    "core2a": 19.0,
+    "core2b": 19.92,
+    "core2c": 19.14
+   },
+   "lin_best": "core3",
+   "all_lin_beat_all_baselines": true,
+   "vs": {
+    "en40": {
+     "per_ensemble_win": {
+      "core3": 0.7,
+      "core2a": 0.69,
+      "core2b": 0.59,
+      "core2c": 0.64
+     },
+     "per_ensemble_p_max": 0.032704
+    },
+    "en500": {
+     "per_ensemble_win": {
+      "core3": 0.73,
+      "core2a": 0.69,
+      "core2b": 0.68,
+      "core2c": 0.69
+     },
+     "per_ensemble_p_max": 8.8e-05
+    },
+    "svr": {
+     "per_ensemble_win": {
+      "core3": 0.76,
+      "core2a": 0.76,
+      "core2b": 0.6,
+      "core2c": 0.8
+     },
+     "per_ensemble_p_max": 0.027317
+    },
+    "xgb": {
+     "per_ensemble_win": {
+      "core3": 0.85,
+      "core2a": 0.83,
+      "core2b": 0.81,
+      "core2c": 0.84
+     },
+     "per_ensemble_p_max": 0.0
+    }
+   }
+  },
+  "k=10": {
+   "table": {
+    "en40": 17.16,
+    "en500": 17.37,
+    "svr": 17.67,
+    "xgb": 21.02,
+    "core3": 16.32,
+    "core2a": 16.23,
+    "core2b": 17.04,
+    "core2c": 16.48
+   },
+   "lin_best": "core2a",
+   "all_lin_beat_all_baselines": true,
+   "vs": {
+    "en40": {
+     "per_ensemble_win": {
+      "core3": 0.83,
+      "core2a": 0.84,
+      "core2b": 0.7,
+      "core2c": 0.78
+     },
+     "per_ensemble_p_max": 1.7e-05
+    },
+    "en500": {
+     "per_ensemble_win": {
+      "core3": 0.9,
+      "core2a": 0.88,
+      "core2b": 0.75,
+      "core2c": 0.86
+     },
+     "per_ensemble_p_max": 0.0
+    },
+    "svr": {
+     "per_ensemble_win": {
+      "core3": 0.9,
+      "core2a": 0.95,
+      "core2b": 0.76,
+      "core2c": 0.9
+     },
+     "per_ensemble_p_max": 0.0
+    },
+    "xgb": {
+     "per_ensemble_win": {
+      "core3": 0.99,
+      "core2a": 0.99,
+      "core2b": 0.97,
+      "core2c": 0.98
+     },
+     "per_ensemble_p_max": 0.0
+    }
+   }
+  },
+  "k=20": {
+   "table": {
+    "en40": 16.55,
+    "en500": 16.57,
+    "svr": 17.12,
+    "xgb": 19.89,
+    "core3": 15.63,
+    "core2a": 15.64,
+    "core2b": 16.32,
+    "core2c": 15.71
+   },
+   "lin_best": "core3",
+   "all_lin_beat_all_baselines": true,
+   "vs": {
+    "en40": {
+     "per_ensemble_win": {
+      "core3": 0.89,
+      "core2a": 0.89,
+      "core2b": 0.73,
+      "core2c": 0.84
+     },
+     "per_ensemble_p_max": 0.0
+    },
+    "en500": {
+     "per_ensemble_win": {
+      "core3": 0.91,
+      "core2a": 0.88,
+      "core2b": 0.77,
+      "core2c": 0.92
+     },
+     "per_ensemble_p_max": 0.0
+    },
+    "svr": {
+     "per_ensemble_win": {
+      "core3": 0.96,
+      "core2a": 0.96,
+      "core2b": 0.81,
+      "core2c": 0.95
+     },
+     "per_ensemble_p_max": 0.0
+    },
+    "xgb": {
+     "per_ensemble_win": {
+      "core3": 0.99,
+      "core2a": 0.99,
+      "core2b": 0.98,
+      "core2c": 1.0
+     },
+     "per_ensemble_p_max": 0.0
+    }
+   }
+  }
+ }
+}
