@@ -145,8 +145,8 @@ Full ledger: `supplement/LoCRANE_supplement.pdf`, §4.
 ```bibtex
 @article{shen2026locrane,
   author = {Shen, Tim},
-  title  = {LoCRANE: a longevity-certified residual age network ensemble for
-            accurate and interpretable transcriptomic aging clocks},
+  title  = {LoCRANE: a longevity-certified multi-view deep ensemble for
+            cross-population transcriptomic aging clocks and biological discovery},
   journal = {Engineering Applications of Artificial Intelligence},
   year   = {2026}
 }
