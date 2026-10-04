@@ -78,7 +78,10 @@ at $p\le 0.006$.
 \item \textbf{External composition history.} The linear core's membership was
 identified with visibility into external few-shot results in an earlier round of
 the project. The neighboring composition \{EN-40, SVR-500\} tracks the core
-within 0.2 years everywhere, and the paper reports all combinations.
+within 0.2 years everywhere, and the paper reports all combinations. A
+project-memo claim of bit-identical agreement between the core's $k$-shot table
+and the earlier-round table was found to be inaccurate (e.g., ext1 $k=10$:
+18.66 vs.\ 18.44 years); the frozen JSON tables are the source of record.
 \item \textbf{Support coverage.} 32/64 (ext1) and 27/66 (ext2) samples lie
 outside the 50--89 training support; external claims are restricted to relative
 orderings under identical inputs.
@@ -97,6 +100,80 @@ statistic is tied to the shipped configuration.
 \item \textbf{Unnominated genes.} ZNF518B and three further claims are graded
 unsupported by the literature audit and stand as falsifiable model-generated
 hypotheses.
+\item \textbf{HVG pool overlap.} The 8{,}000-gene variance pool is an
+unsupervised ranking (no age labels enter it) computed on the working-age
+training samples of fold~0, which are reused by all fifteen locked splits. The
+pool's membership therefore shares sample provenance with every evaluation
+block. The ranking sensitivity to an alternative sample draw was not
+separately quantified; the pool was frozen at project start and held constant,
+so any such sensitivity acts on every arm identically. All arms, every
+baseline, and the external evaluations operate on the identical pool, and the
+40- and 500-gene elastic-net feature sets are nested subsets of it.
+\item \textbf{Adoption-$p$ semantics.} The reported two-sided $p=0.035$ is the
+monotonicity comparison on the eq3 layer (10 of 15 splits favor the adopted
+configuration); the deep-member layer shares the same $p$-value at 11 of 15
+splits by coincidence. On the ten design-free splits (the last ten locked
+splits; the first four were design-exposed by the arm screen and one further
+split was conservatively excluded), the mean lead is $+0.0299$ years with
+two-sided $p=0.0059$, so the adopted configuration's advantage survives the
+stricter exposure. All paper $p$-values are two-sided; one-sided
+project-journal variants do not appear in the paper.
+\item \textbf{GSE123696 selection.} The second external cohort (Israeli
+PrimeView whole-blood microarray, $n=66$, ages 23--96) was chosen at project
+start for population--platform independence from both the training cohort and
+the GTEx pilot. Its earlier-round evaluation predates the final lock, so a
+directional soft influence of that history on the final menu cannot be
+entirely excluded; only the post-lock evaluation is reported in the paper.
+\item \textbf{Survival-null specification.} The survival probe (GSE65218,
+$n=151$, 70 events) is sized by availability: power for the composite
+signature score reaches $\approx$ hazard ratios of 1.5 or larger only. Null
+readings are therefore \emph{not-detectable at the available sample}, not
+evidence of absence.
+\item \textbf{No unused external queue.} The project holds no formally
+registered unused third external dataset. The only candidate (GTEx muscle)
+was consumed in the first round, is same-source and same-country as the GTEx
+pilot, and does not qualify as an independent set. External claims are
+restricted to the two independent external cohorts; should a reviewer request a
+third queue, GSE65218 (used only for the survival probe) is disclosed here
+together with its usage history as a semi-independent supplement.
+\item \textbf{GTEx pilot history.} The GTEx blood pilot (ext1, $n=64$) entered
+the project as the first external evaluation and was re-evaluated on each
+pipeline round. The paper reports only the post-lock evaluation; no
+historical-round external numbers are repeated.
+\item \textbf{$p$-value provenance.} Split-level $p$-values come from the
+repeated-split design: the fifteen 80/20 splits reuse one sample pool, so a
+paired two-sided Wilcoxon test on the split-level MAEs indicates replicate
+agreement under the locked design rather than independent-sample inference.
+External $p$-values are paired bootstraps on external samples. No
+paper $p$-value is computed on data outside the evaluations.
+\item \textbf{External $p$ unadjusted.} Cell-level significance tests in the
+external table are not multiplicity-adjusted across cells; they are reported
+per comparison, on the conservative per-ensemble maximum basis (the maximum
+over the four per-baseline paired bootstrap comparisons; ext2:
+$p\le 0.033$).
+\item \textbf{Collapse control provenance.} The 10.714-year collapse control is
+computed under the identical fifteen locked splits and 80/20 protocol, but in
+the pipeline generation preceding the final result tables, where the
+elastic-net baseline was handed the extreme-age labels as ordinary regression
+targets. The final tables do not include that control arm; the value is a
+cross-generation structural control, not a fresh re-run on the shipped
+configuration.
+\item \textbf{Survival $p$ nominal.} In-band gene-level survival $p$-values
+(GAL3ST4 $p=0.007$; PDZK1IP1 $p=0.095$; PFKP $p=0.17$; NT5E $p=0.85$) are
+nominal and unadjusted across the ten in-band gene-level tests. None survives a
+Bonferroni correction at $\alpha=0.05$ over those ten tests, and the paper
+presents them as directional, corroborating evidence, not as a survival
+signature.
+\item \textbf{Ablation $p$ uncorrected.} Paired $p$-values in the ablation
+table are uncorrected (descriptive family); the Holm correction is applied
+only to the two registered comparison families.
+\item \textbf{Per-ensemble-max $p$ basis.} The $p$-basis stated for the
+external table is the maximum over the four per-baseline comparisons for each
+ensemble (conservative); cell-level $p$-values are not reported in the paper.
+\item \textbf{Holm variant.} The Holm step-down correction is computed within
+each registered comparison family (the classical-baseline family; the
+member-versus-frame family), not jointly across all pairwise comparisons. The
+family-corrected $p$-values are the ones reported in the internal table.
 \end{enumerate}
 
 \section{Survival probe details (Vitality 90+, GSE65218)}
@@ -118,5 +195,5 @@ membership, not survival within the band; the two questions decouple.
 \texttt{python code/run\_demo.py} runs the full recipe (anchor, FiLM, band
 auxiliary, monotonicity, hybrid blend) on the released real slice in about two
 minutes on CPU. Demo-scale numbers verify the pipeline only; the paper's numbers
-require the full cohort (Section~\ref{sec:data} of the repository README).
+require the full cohort (see the Data section of the repository README).
 \end{document}

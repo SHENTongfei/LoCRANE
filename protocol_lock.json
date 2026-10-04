@@ -1,41 +1,57 @@
 {
-  "project": "LoCRANE (Longevity-Certified Residual Age Network Ensemble)",
-  "locked_at": "2026-10-04",
-  "cohort": {
-    "source": "Chinese longevity cohort, peripheral blood transcriptomes, Hainan/Hubei/Hunan (Xiao et al., Cell Reports Medicine 7:102767, 2026; collaborative sharing)",
-    "n_total": 1715,
-    "bands": {"Y(<=50)": 182, "M(51-89)": 738, "L(>=90)": 795},
-    "chronological_age_protocol": "train/validate on M band + 50y edge of Y, n=760; L band participates in auxiliary band supervision only"
+ "project": "LoCRANE (Longevity-Certified Residual Age Network Ensemble)",
+ "locked_at": "2026-10-04",
+ "cohort": {
+  "source": "Chinese longevity cohort, peripheral blood transcriptomes, Hainan/Hubei/Hunan (Xiao et al., Cell Reports Medicine 7:102767, 2026; collaborative sharing)",
+  "n_total": 1715,
+  "bands": {
+   "Y(<=50)": 182,
+   "M(51-89)": 738,
+   "L(>=90)": 795
   },
-  "protocol": {
-    "splits": 15,
-    "split_kind": "random 80/20, master seed 2026, identical rows for every method",
-    "test": "two-sided paired Wilcoxon over the 15 replicate errors",
-    "multiplicity": "Holm step-down inside two pre-registered families (10 classical baselines; 4-arm deep suite)",
-    "features": "pooled HVG8000 screen, selected inside training folds"
-  },
-  "model": {
-    "deep_member": "compact residual MLP; cross-fitted ridge-residual anchor with bounded tanh correction; FiLM sex conditioning; three-band auxiliary head (L band auxiliary only); RankNet-style monotonicity regularizer lambda=0.05 (pre-registered)",
-    "seeds": [42, 7, 2024, 2025, 12345],
-    "ensemble_eq3p": "equal-weight mean of {deep(mono), EN-40, EN-500}",
-    "composition": "selected by exhaustive 15-subset matrix on the locked splits (x48); no rival significantly better (nearest deep+EN-40 +0.007, p=0.36)"
-  },
-  "frozen_numbers": {
-    "headline_MAE": 5.740,
-    "base_eq3_MAE": 5.757,
-    "prior_value_same_backbone": "+0.30 y (CraneZ-vanilla 6.044 vs eq3' 5.740, 15/15 splits, Holm p=9.2e-05)",
-    "vs_published_clock": "6.52 (Xiao et al. random-split protocol); locked estimate 0.78 y lower (12.0%)",
-    "component_costs": {"anchor": "+0.078 (p<0.001)", "FiLM": "+0.019 (p=0.041)", "monotonicity": "+0.017 (p=0.035)", "band-aux": "+0.003 (p=0.60, ns; structural value via collapse control 10.714)", "raw sex input": "-0.0005 (p=0.80, ns)"},
-    "external": "relative-ordering claims only; core3 linear core lowest point estimate at k=5/10/20 on both cohorts; ext2 all cells significant (p<=0.033); ext1 k>=10 significant (p<=1e-4); ext1 k=5 vs SVR-500 n.s. (disclosed)"
-  },
-  "authoritative_sources": [
-    "results/x20b_winner_vs_baselines.json",
-    "results/x41_eq3_from_log.json",
-    "results/x42_ablation.json",
-    "results/x47_dl_baselines.json",
-    "results/x48_composition.json",
-    "results/x15c_core3_kshot_v4.json",
-    "results/x45_ext_battle_v4.json"
+  "chronological_age_protocol": "train/validate on M band + 50y edge of Y, n=760; L band participates in auxiliary band supervision only"
+ },
+ "protocol": {
+  "splits": 15,
+  "split_kind": "random 80/20, master seed 2026, identical rows for every method",
+  "test": "two-sided paired Wilcoxon over the 15 replicate errors",
+  "multiplicity": "Holm step-down inside two pre-registered families (10 classical baselines; 4-arm deep suite)",
+  "features": "pre-frozen HVG8000 variance pool held constant across every arm (unsupervised screen over the working-age fold-0 samples; overlap sensitivity disclosed in the supplement)"
+ },
+ "model": {
+  "deep_member": "compact residual MLP; cross-fitted ridge-residual anchor with bounded tanh correction; FiLM sex conditioning; three-band auxiliary head (L band auxiliary only); RankNet-style monotonicity regularizer lambda=0.05 (pre-registered)",
+  "seeds": [
+   42,
+   7,
+   2024,
+   2025,
+   12345
   ],
-  "rule": "every paper number is read from these frozen tables; nothing is recomputed after evaluation"
+  "ensemble_eq3p": "equal-weight mean of {deep(mono), EN-40, EN-500}",
+  "composition": "selected by exhaustive 15-subset matrix on the locked splits (x48); no rival significantly better (nearest deep+EN-40 +0.007, p=0.36)"
+ },
+ "frozen_numbers": {
+  "headline_MAE": 5.74,
+  "base_eq3_MAE": 5.757,
+  "prior_value_same_backbone": "+0.30 y (CraneZ-vanilla 6.044 vs eq3' 5.740, 15/15 splits, Holm p=9.2e-05)",
+  "vs_published_clock": "6.52 (Xiao et al. random-split protocol); locked estimate 0.78 y lower (12.0%)",
+  "component_costs": {
+   "anchor": "+0.078 (p<0.001)",
+   "FiLM": "+0.019 (p=0.041)",
+   "monotonicity": "+0.017 (p=0.035)",
+   "band-aux": "+0.003 (p=0.60, ns; structural value via collapse control 10.714)",
+   "raw sex input": "-0.0005 (p=0.80, ns)"
+  },
+  "external": "relative-ordering claims only; core3 linear core lowest point estimate at k=5/10/20 on both cohorts; ext2 all cells significant (p<=0.033); ext1 k>=10 significant (p<=1e-4); ext1 k=5 vs SVR-500 n.s. (disclosed)"
+ },
+ "authoritative_sources": [
+  "results/x20b_winner_vs_baselines.json",
+  "results/x41_eq3_from_log.json",
+  "results/x42_ablation.json",
+  "results/x47_dl_baselines.json",
+  "results/x48_composition.json",
+  "results/x15c_core3_kshot_v4.json",
+  "results/x45_ext_battle_v4.json"
+ ],
+ "rule": "every paper number is read from these frozen tables; nothing is recomputed after evaluation"
 }
