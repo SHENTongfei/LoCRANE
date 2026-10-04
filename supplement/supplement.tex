@@ -159,11 +159,12 @@ targets. The final tables do not include that control arm; the value is a
 cross-generation structural control, not a fresh re-run on the shipped
 configuration.
 \item \textbf{Survival $p$ nominal.} In-band gene-level survival $p$-values
-(GAL3ST4 $p=0.007$; PDZK1IP1 $p=0.095$; PFKP $p=0.17$; NT5E $p=0.85$) are
-nominal and unadjusted across the ten in-band gene-level tests. None survives a
-Bonferroni correction at $\alpha=0.05$ over those ten tests, and the paper
-presents them as directional, corroborating evidence, not as a survival
-signature.
+(GAL3ST4 $p=0.007$; PLEKHG4 $p=0.057$; PDZK1IP1 $p=0.095$; PFKP $p=0.17$;
+NT5E $p=0.85$; six further genes $p\ge 0.26$) are nominal and unadjusted
+across the 17 in-band gene-level tests (frozen table \texttt{x31\_sensitivity}).
+None survives a Bonferroni correction at $\alpha=0.05/17\approx 0.003$
+(the smallest, GAL3ST4 $p=0.007$, does not), and the paper presents them as
+directional, corroborating evidence, not as a survival signature.
 \item \textbf{Ablation $p$ uncorrected.} Paired $p$-values in the ablation
 table are uncorrected (descriptive family); the Holm correction is applied
 only to the two registered comparison families.
@@ -186,7 +187,8 @@ separation --- log-rank $p=0.47$; (H3) per-gene directional agreement --- 7/10
 testable genes agree with the model (70\%). Nested cross-validated recalibration
 of the weights reaches C-index 0.540 against 0.585 for covariates alone
 ($n=151$; 70 events power only HR~$\ge$~1.5). Gene-level associations inside the
-90+ band: GAL3ST4 HR 1.39 (1.09--1.76, $p=0.007$); PDZK1IP1 HR 1.21 ($p=0.095$);
+90+ band (frozen tables \texttt{x30}/\texttt{x31}; 17-gene test family):
+GAL3ST4 HR 1.39 (1.09--1.76, $p=0.007$); PDZK1IP1 HR 1.21 ($p=0.095$);
 PFKP HR 1.20 ($p=0.17$, directional replication of the supplementary screen);
 NT5E HR 1.03 ($p=0.85$, null). Reading: the longevity signature answers band
 membership, not survival within the band; the two questions decouple.
