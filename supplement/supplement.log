@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.8.25)  5 OCT 2026 08:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.8.25)  5 OCT 2026 09:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -414,7 +414,7 @@ n/10.95 un-der the locked splits (\OT1/cmtt/m/n/10.95 x48[]composition.json\OT1
 [1
 
 {C:/Users/TS/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
-Overfull \hbox (2.45099pt too wide) in paragraph at lines 157--162
+Overfull \hbox (2.45099pt too wide) in paragraph at lines 161--166
 []\OT1/cmr/bx/n/10.95 External $\OML/cmm/m/it/10.95 p$ \OT1/cmr/bx/n/10.95 un-a
 d-justed. \OT1/cmr/m/n/10.95 Cell-level sig-nif-i-cance tests in the ex-ter-nal
  ta-ble are not multiplicity-
@@ -435,7 +435,7 @@ Here is how much of TeX's memory you used:
  38731 multiletter control sequences out of 15000+600000
  637814 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,579b,541s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,579b,543s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/TS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmb
 x10.pfb><C:/Users/TS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb><C:/Users/TS/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
@@ -448,7 +448,7 @@ TeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/TS/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/TS/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/TS/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on supplement.pdf (5 pages, 175922 bytes).
+Output written on supplement.pdf (5 pages, 176511 bytes).
 PDF statistics:
  135 PDF objects out of 1000 (max. 8388607)
  34 named destinations out of 1000 (max. 500000)
