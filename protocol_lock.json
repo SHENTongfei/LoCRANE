@@ -42,7 +42,7 @@
    "band-aux": "+0.003 (p=0.60, ns; structural value via collapse control 10.714)",
    "raw sex input": "-0.0005 (p=0.80, ns)"
   },
-  "external": "relative-ordering claims only; core3 linear core lowest point estimate at k=5/10/20 on both cohorts; ext2 all cells significant (p<=0.033); ext1 k>=10 significant (p<=1e-4); ext1 k=5 vs SVR-500 n.s. (disclosed)"
+  "external": "relative-ordering claims only; core3 linear core lowest point estimate at k=5/10/20 on both cohorts; ext2 all cells significant (p<=0.033); ext1 k>=10 significant over the EN family (max p=0.000485 at k=10); ext1 k=5 vs SVR-500 n.s. (disclosed)"
  },
  "authoritative_sources": [
   "results/x20b_winner_vs_baselines.json",

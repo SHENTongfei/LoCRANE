@@ -116,8 +116,16 @@ splits by coincidence. On the ten design-free splits (the last ten locked
 splits; the first four were design-exposed by the arm screen and one further
 split was conservatively excluded), the mean lead is $+0.0299$ years with
 two-sided $p=0.0059$, so the adopted configuration's advantage survives the
-stricter exposure. All paper $p$-values are two-sided; one-sided
-project-journal variants do not appear in the paper.
+stricter exposure. $p$-value conventions: the classical-baseline and
+deep-suite comparisons of Table~2 and the composition matrix of Section~4.4
+use one-sided paired Wilcoxon tests on the pre-declared direction (the
+challenger's higher error; frozen fields $p_{\text{less}}$ / alternative
+$=$ greater); the two adoption comparisons ($p=0.035$; design-free
+$p=0.0059$) and the ablation table are two-sided. Under the two-sided
+convention every family conclusion survives except one row: the EN-40-only
+composition row becomes non-significant (two-sided Holm
+$p\approx 0.051$), which the paper's one-sided convention does not
+report and this ledger discloses.
 \item \textbf{GSE123696 selection.} The second external cohort (Israeli
 PrimeView whole-blood microarray, $n=66$, ages 23--96) was chosen at project
 start for population--platform independence from both the training cohort and
@@ -160,7 +168,8 @@ cross-generation structural control, not a fresh re-run on the shipped
 configuration.
 \item \textbf{Survival $p$ nominal.} In-band gene-level survival $p$-values
 (GAL3ST4 $p=0.007$; PLEKHG4 $p=0.057$; PDZK1IP1 $p=0.095$; PFKP $p=0.17$;
-NT5E $p=0.85$; six further genes $p\ge 0.26$) are nominal and unadjusted
+NT5E $p=0.85$; BCL2 $p=0.116$; CPNE5 $p=0.256$; ten further genes
+$p\ge 0.26$) are nominal and unadjusted
 across the 17 in-band gene-level tests (frozen table \texttt{x31\_sensitivity}).
 None survives a Bonferroni correction at $\alpha=0.05/17\approx 0.003$
 (the smallest, GAL3ST4 $p=0.007$, does not), and the paper presents them as
@@ -175,6 +184,7 @@ ensemble (conservative); cell-level $p$-values are not reported in the paper.
 each registered comparison family (the classical-baseline family; the
 member-versus-frame family), not jointly across all pairwise comparisons. The
 family-corrected $p$-values are the ones reported in the internal table.
+\item \textbf{Figure-level statistics.} Three figure-level quantities (the $\rho=0.89$ agreement of the M2L--M2Y attribution axes; the 20-of-30 gene overlap between versions; and the neighboring-composition label \{EN-40, SVR-500\}) are read from the \texttt{x43}/\texttt{x45} companion NPZ tables and project memos rather than from a runs\_v4 JSON field; their values agree with the frozen JSONs that do carry the corresponding per-value data (neighboring-composition gaps $\le 0.19$ years across all six cells).
 \end{enumerate}
 
 \section{Survival probe details (Vitality 90+, GSE65218)}
@@ -182,7 +192,9 @@ Cohort: 151 Finnish nonagenarians, Illumina HumanHT-12 v4, 70 deaths over the
 follow-up window (Jylh\"av\"a et al., BMC Medical Genomics 7:54, 2014).
 Pre-registered hypotheses, fully locked consensus weights: (H1) signature-score
 Cox model adjusted for frailty and sex --- HR 1.14 (95\% CI 0.89--1.45,
-$p=0.31$), confirmed by 2{,}000-label permutation; (H2) tertile Kaplan--Meier
+$p=0.31$), confirmed by the frozen permutation check (\texttt{x31\_sensitivity}:
+\texttt{perm\_p\_frac}$=0.3125$, the observed $p$ at the null quantile of
+the permutation distribution); (H2) tertile Kaplan--Meier
 separation --- log-rank $p=0.47$; (H3) per-gene directional agreement --- 7/10
 testable genes agree with the model (70\%). Nested cross-validated recalibration
 of the weights reaches C-index 0.540 against 0.585 for covariates alone
