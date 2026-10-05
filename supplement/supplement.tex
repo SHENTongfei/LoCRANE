@@ -154,9 +154,12 @@ pipeline round. The paper reports only the post-lock evaluation; no
 historical-round external numbers are repeated.
 \item \textbf{$p$-value provenance.} Split-level $p$-values come from the
 repeated-split design: the fifteen 80/20 splits reuse one sample pool, so a
-paired two-sided Wilcoxon test on the split-level MAEs indicates replicate
+paired Wilcoxon test on the split-level MAEs indicates replicate
 agreement under the locked design rather than independent-sample inference.
-External $p$-values are paired bootstraps on external samples. No
+The Table~2 and composition-matrix comparisons are one-sided on the
+pre-declared direction (the challenger's higher error); the adoption
+comparisons and the ablation table are two-sided. External $p$-values are
+paired bootstraps on external samples. No
 paper $p$-value is computed on data outside the evaluations.
 \item \textbf{External $p$ unadjusted.} Cell-level significance tests in the
 external table are not multiplicity-adjusted across cells; they are reported
