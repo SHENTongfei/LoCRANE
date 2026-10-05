@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.8.25)  5 OCT 2026 08:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.8.25)  5 OCT 2026 08:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -420,7 +420,7 @@ d-justed. \OT1/cmr/m/n/10.95 Cell-level sig-nif-i-cance tests in the ex-ter-nal
  ta-ble are not multiplicity-
  []
 
-[3] [4] (supplement.aux)
+[3] [4] [5] (supplement.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -429,13 +429,13 @@ Package rerunfilecheck Info: File `supplement.out' has not changed.
 (rerunfilecheck)             Checksum: 2B5F1A128B2EBC7B4BADE10C49C05242;1142.
  ) 
 Here is how much of TeX's memory you used:
- 9989 strings out of 467871
- 151377 string characters out of 5419828
+ 9990 strings out of 467871
+ 151383 string characters out of 5419828
  579213 words of memory out of 5000000
  38731 multiletter control sequences out of 15000+600000
  637814 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,579b,543s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,579b,541s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/TS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmb
 x10.pfb><C:/Users/TS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb><C:/Users/TS/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
@@ -448,9 +448,9 @@ TeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/TS/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/TS/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/TS/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on supplement.pdf (4 pages, 174905 bytes).
+Output written on supplement.pdf (5 pages, 175922 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 33 named destinations out of 1000 (max. 500000)
+ 135 PDF objects out of 1000 (max. 8388607)
+ 34 named destinations out of 1000 (max. 500000)
  49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
