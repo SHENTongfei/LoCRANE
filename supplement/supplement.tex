@@ -67,7 +67,7 @@ significantly worse after Holm correction (deep-only 5.901, EN-40-only 5.839,
 SVR-500-only 5.898; Holm $p\le 0.026$); best all-linear combination
 EN-40+SVR-500 at 5.806.
 
-\section{Disclosure ledger}
+\section{Notes on statistical practice and interpretation}
 \begin{enumerate}
 \item \textbf{Deep-layer seed direction rate 0.56.} Claims are carried at the
 ensemble level (10/15, $p=0.035$); the deep member alone is noisier than the
@@ -85,7 +85,7 @@ and the earlier-round table was found to be inaccurate (e.g., ext1 $k=10$:
 \item \textbf{Support coverage.} 32/64 (ext1) and 27/66 (ext2) samples lie
 outside the 50--89 training support; external claims are restricted to relative
 orderings under identical inputs.
-\item \textbf{Attribution axis failure.} The FiLM per-gene attribution axis fails
+\item \textbf{Attribution axis scope.} The FiLM per-gene attribution axis fails
 its pre-registered split-half gate ($\rho=0.435 < 0.6$) and is reported as
 failed; FiLM's claims rest on its ablation cost and module-level dimorphism
 spectrum (split-half 0.70).
@@ -119,7 +119,7 @@ two-sided $p=0.0059$, so the adopted configuration's advantage survives the
 stricter exposure. The main text and the internal figure's panel~K report the
 companion eleven-fresh-splits one-sided view ($+0.028$, one-sided
 $p=0.002$; frozen recomputation, 10 of 11 splits in favor), and this
-two-sided ten-split value is the conservative disclosure of the same effect.
+two-sided ten-split value is the conservative statement of the same effect.
 $p$-value conventions: the classical-baseline and
 deep-suite comparisons of Table~2 and the composition matrix of Section~4.4
 use one-sided paired Wilcoxon tests on the pre-declared direction (the
@@ -129,7 +129,7 @@ $p=0.0059$) and the ablation table are two-sided. Under the two-sided
 convention every family conclusion survives except one row: the EN-40-only
 composition row becomes non-significant (two-sided Holm
 $p\approx 0.051$), which the paper's one-sided convention does not
-report and this ledger discloses.
+report and these notes disclose.
 \item \textbf{GSE123696 selection.} The second external cohort (Israeli
 PrimeView whole-blood microarray, $n=66$, ages 23--96) was chosen at project
 start for population--platform independence from both the training cohort and
